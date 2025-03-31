@@ -204,6 +204,13 @@ main > .tagline {
     width: 100%; /* Garante que o elemento ocupe toda a largura disponível */
 }
 
-a {
-	
+ #mel {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
+
+ #mel:hover {
+    transform: translateY(-3px);
+    color: #f0f0f0; /* Levemente mais claro */
+}
+
