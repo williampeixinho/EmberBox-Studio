@@ -40,7 +40,7 @@
             <div class="offcanvas-body">
                 <ul class="nav flex-column">
                     <li id="mel" class="nav-item">
-                        <a class="nav-link text-white" href="">&nbsp&nbsp&nbsp&nbsp&nbspMel The Cat</a>
+                        <a class="nav-link text-white" href="" ><img id="melcat" src="./IMG/Logo_Sketch.png" alt="" srcset=""></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">&nbsp&nbsp&nbsp&nbsp&nbspComing Soon</a>
@@ -93,7 +93,14 @@
             </main>
         </div>
     </div>
-    
+    <script>
+        const img = document.getElementById("gif");
+        const gifSrc = img.getAttribute("data-gif");
+        const staticSrc = img.getAttribute("src");
+      
+        img.addEventListener("mouseenter", () => img.src = gifSrc);
+        img.addEventListener("mouseleave", () => img.src = staticSrc);
+      </script>
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/8b4c763476.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

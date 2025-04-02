@@ -77,6 +77,11 @@ body {
 }
 
 
+.icons-social i:hover {
+	transform: translateY(-10px);
+}
+
+
 
 @keyframes fadeInAnimation {
     from {
@@ -197,7 +202,7 @@ main > .tagline {
 }
 
 #mel {
-    background-image: url(../IMG/Screenshot\ 2025-03-12\ 174125.png);
+    background-image: url(../IMG/Timeline\ 1.gif);
     background-size: cover; /* Faz a imagem cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
@@ -228,3 +233,12 @@ p a:hover {
 	
 }
 
+#melcat {
+	max-width: 110px;
+}
+
+.nav-item {
+	border-radius: 30px;
+	max-width: 100%;
+	max-height: 100px;
+}
