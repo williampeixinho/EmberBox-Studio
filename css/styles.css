@@ -215,8 +215,9 @@ main > .tagline {
 }
 
  #mel:hover {
-    transform: translateY(-3px);
-    color: #f0f0f0; /* Levemente mais claro */
+    transform: translateY(-10px);
+	filter: brightness(1.08);
+    
 }
 
 footer {
@@ -234,7 +235,7 @@ p a:hover {
 }
 
 #melcat {
-	max-width: 110px;
+	max-width: 100px;
 }
 
 .nav-item {
@@ -242,3 +243,19 @@ p a:hover {
 	max-width: 100%;
 	max-height: 100px;
 }
+
+
+#melspace {
+	width: 100px;
+}
+
+#black {
+	background-image: url(..//IMG/Screenshot\ 2025-04-02\ 003557.png);
+	pointer-events: none;
+	filter: grayscale(100%);
+}
+
+#mel {
+	margin-bottom: 30px;
+}
+
