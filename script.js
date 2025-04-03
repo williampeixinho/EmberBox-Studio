@@ -1,5 +1,5 @@
 document.querySelector('.background').addEventListener('mousemove', function (e) {
-    const moveX = (e.clientX / window.innerWidth) - 0.1; // Cria um valor de movimento no eixo X
+    const moveX = (e.clientX / window.innerWidth) - 0.5; // Cria um valor de movimento no eixo X
     const moveY = (e.clientY / window.innerHeight) - 0.1; // Cria um valor de movimento no eixo Y
 
     const bgMoveX = moveX * 10; // Ajusta a intensidade do movimento horizontal

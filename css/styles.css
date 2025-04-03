@@ -239,9 +239,9 @@ p a:hover {
 }
 
 .nav-item {
-	border-radius: 30px;
-	max-width: 100%;
-	max-height: 100px;
+	border-radius: 40px;
+	max-width: 100% !important;
+	max-height: 85px;
 }
 
 
@@ -250,12 +250,18 @@ p a:hover {
 }
 
 #black {
-	background-image: url(..//IMG/Screenshot\ 2025-04-02\ 003557.png);
-	pointer-events: none;
-	filter: grayscale(100%);
+	background-image: url(../IMG/fireball-12171_256.gif);
+	pointer-events: cursor;
+	display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 #mel {
 	margin-bottom: 30px;
 }
 
+#black:hover{
+	transform: translateY(-10px);
+	filter: brightness(1.08);
+	filter: grayscale(100%);
+}
