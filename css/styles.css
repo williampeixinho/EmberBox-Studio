@@ -49,14 +49,14 @@ body {
 
 
 #logo {
-	transition: transform 0.3s ease;
+	transition: transform 3.3s ease;
 	width: 500px;
 	margin-top: -200px !important;
 
   }
   
   #logo:hover {
-	transform: translateY(-10px);
+	transform: translateY(-30px);
   }
   
 
