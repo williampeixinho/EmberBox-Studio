@@ -1,0 +1,269 @@
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+	background-color:#000000;
+}
+
+header {
+	background-color: none !important;
+}
+
+/* Altere a cor de fundo com opacidade no offcanvas */
+.offcanvas-start.bg-dark {
+    background-color: rgba(0, 0, 0, 0.486) !important; /* 0.7 de opacidade */
+}
+
+
+
+.background {
+    background-image: url(../IMG/openart-a-glowing-forge-burns-intensely-in-the-darkness-casting-deep-shadows-acros-2.jpg);
+    background-size: cover;   /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    position: fixed; /* Fixa o background na tela */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Garante que cubra toda a largura */
+    height: 100vh; /* Garante que cubra toda a altura */
+    z-index: -1; /* Mantém o background atrás dos outros elementos */
+}
+
+body {
+	opacity: 100% !important;
+}
+ 
+#menu {
+	
+}
+
+.tagline {
+	font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:#ffffff;
+  margin-top: -50px !important;
+  }
+  
+
+
+#logo {
+	transition: transform 3.3s ease;
+	width: 500px;
+	margin-top: -200px !important;
+
+  }
+  
+  #logo:hover {
+	transform: translateY(-30px);
+  }
+  
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s ease-in forwards;
+}
+
+.row {
+	justify-content: center;
+	align-items: center;
+	top: 200px !important;
+}
+
+.row img {
+	border-radius: 50px;
+}
+
+
+.icons-social i:hover {
+	transform: translateY(-10px);
+}
+
+
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#logo {
+	max-width: 45%;
+	margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 2.5em;
+	transition: transform 0.3s ease, filter 0.3s ease;
+	background: linear-gradient(to bottom, #F1834D, #f56218); /* Amarelo fraco para laranja */
+	-webkit-background-clip: text; /* Aplica o gradiente apenas no texto */
+	-webkit-text-fill-color: transparent; /* Deixa o fundo do texto transparente */
+	font-weight: bold; /* Deixa o texto mais destacado */
+	margin: 0 auto;
+	margin-bottom: -160px;
+}
+
+#logo-menu {
+	max-width: 160px;
+}
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+
+@media (max-width: 768px) {
+	.tagline {
+		margin-top:10px !important;
+	}
+	#logo {
+		max-width: 220px !important;
+		margin-top: 0px !important;
+	}
+
+
+}
+
+
+.btn {
+	background-color: #F1834D;
+}
+
+#home-button {
+	color:white;
+	font-size: 30px;
+	
+}
+
+#mel {
+    background-image: url(../IMG/Timeline\ 2.gif);
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    width: 100%; /* Garante que o elemento ocupe toda a largura disponível */
+}
+
+ #mel {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+ #mel:hover {
+    transform: translateY(-10px);
+	filter: brightness(1.08);
+    
+}
+
+footer {
+	text-decoration: none;
+}
+
+p a {
+	color: inherit;
+	text-decoration: none;
+}
+
+p a:hover {
+	color:rgb(255, 0, 0);
+	
+}
+
+#melcat {
+
+	max-width: 100px;
+}
+
+.nav-item {
+	border-radius: 10px;
+	max-width: 100% !important;
+	max-height: 100px;
+}
+
+
+#melspace {
+	width: 100px;
+}
+
+#black {
+	background-image: url(../IMG/fireball-12171_256.gif);
+	pointer-events: cursor;
+	display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+	
+}
+
+#mel {
+	margin-bottom: 30px;
+}
+
+#black:hover{
+	transform: translateY(-10px);
+	filter: brightness(1.08);
+	filter: grayscale(100%);
+}

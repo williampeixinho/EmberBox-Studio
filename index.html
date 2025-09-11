@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome | Ember Box</title>
+    
+    <link rel="icon" href="./IMG/logomarca_-_sem_background.png" type="image/jpeg">
+
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap" rel="stylesheet">
+    <div class="background">
+        <link rel="stylesheet" href="./css/preloader.css">
+    <style>
+        .offcanvas {
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="preloader">
+        <div class="loader-box">
+          <div class="loader-title">
+            <img src="./IMG/Animation - 1744130024331.gif" alt="">
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <div class="progress-text" id="progress-text">0%</div>
+        </div>
+      </div>
+
+    <div class="box">
+        <button class="btn mt-3 m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+            <i class="fa-solid fa-gamepad fa-2xl" style="color:#ffffff;"></i>
+        </button>
+    
+        <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+            <div class="offcanvas-header">
+                <img src="./IMG/logomarca_-_sem_background.png" id="logo-menu" alt="">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav flex-column">
+                    <li id="mel" class="nav-item">
+                        <a class="nav-link text-white" href="./mel/mel.html" ><img id="melcat" src="./IMG/Logo_Sketch.png" alt="" srcset=""></a>
+                    </li>
+                    <li id="black" class="nav-item">
+                        <a class="nav-link text-white"><img id="melspace" src="./IMG/ChatGPT_Image_2_de_abr._de_2025__00_22_16-removebg-preview-removebg-preview.png" alt="" srcset=""></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <main class="conteudo fade-in">
+
+                <img src="./IMG/logomarca_-_sem_background.png" alt="Logotipo Vigo Forge" id="logo" 
+    data-bs-toggle="offcanvas" data-bs-target="#sidebar" style="cursor: pointer;">
+
+                <div class="tagline">From Glowing Embers to Blazing Innovation.</div>
+                <div class="icons-social">
+                    <a target="_blank" href="https://www.youtube.com/@emberboxstudio">
+                        <i class="fab fa-youtube" title="YouTube"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                    <a target="_blank" href="https://discord.gg/6RDNzdsRrW">
+                        <i class="fab fa-discord" title="Discord"></i>
+                        <span class="sr-only">Discord</span>
+                    </a>
+                    <a target="_blank" href="./contato/index.html">
+                        <i class="fa fa-envelope" title="Send a Email"></i>
+                        <span class="sr-only">Email</span>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/emberboxstudio/">
+                        <i class="fa fa-instagram aria-hidden=true" title="Instagram"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </div>
+                
+                <footer class=" text-white text-center py-3 mt-3">
+                    <div class="container">
+                        <p>&copy; 2025 Ember Box Studio. All rights reserved. 
+                            <br>
+                            <br>|   
+                            <a href="terms-and-conditions.html"> Terms and Conditions </a>|  
+                            <a href="privacy.html">Privacy Policy </a>|   
+                            <a href="./contato/index.html">Contact</a> | 
+                        </p>
+                        
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </div>
+    <script>
+        const img = document.getElementById("gif");
+        const gifSrc = img.getAttribute("data-gif");
+        const staticSrc = img.getAttribute("src");
+        img.addEventListener("mouseenter", () => img.src = gifSrc);
+        img.addEventListener("mouseleave", () => img.src = staticSrc);
+    </script>
+    <script src="script.js" defer></script>
+    <script src="./preloader.js"></script>
+    <script src="https://kit.fontawesome.com/8b4c763476.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
