@@ -38,9 +38,18 @@
     width: 0%;
     transition: width 0.3s ease;
   }
+
+  .progress-fill1 {
+    height: 100%;
+    background: #8000ca;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
   
+
   .progress-text {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 5px;
   }
   
