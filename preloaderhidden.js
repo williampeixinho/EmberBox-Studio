@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const fill = document.getElementById("progress-fillegypt");
+    const fill = document.getElementById("progress-fillhidden");
     const text = document.getElementById("progress-text");
     const preloader = document.getElementById("preloader");
   
