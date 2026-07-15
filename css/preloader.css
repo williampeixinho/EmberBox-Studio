@@ -63,6 +63,12 @@
     width: 0%;
     transition: width 0.3s ease;
   }
+    .progress-fillpandashards {
+    height: 100%;
+    background: #44e4f9;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
   .progress-text {
     font-size: 13px;
     margin-top: 5px;
