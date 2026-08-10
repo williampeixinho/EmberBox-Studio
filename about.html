@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="home.meta.title">Ember Box Studio — 2D Pixel Art Games</title>
-  <meta name="description" data-i18n-attr="content:home.meta.desc" content="Ember Box Studio creates charming 2D pixel art games, like Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats and Find the Cats 2.">
+  <title data-i18n="about.meta.title">About — Ember Box Studio</title>
+  <meta name="description" data-i18n-attr="content:about.meta.desc" content="Learn about Ember Box Studio, an independent 2D pixel art game studio.">
   <link rel="icon" href="images/emberbox.png">
   <link rel="stylesheet" href="css/style.css">
   <noscript><style>body{visibility:visible !important;}</style></noscript>
@@ -25,73 +25,64 @@
         </div>
         <button class="nav-toggle" aria-label="Open menu" data-i18n-attr="aria-label:common.openMenu">☰</button>
         <ul class="nav-links">
-          <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
           <li><a href="index.html#games" data-i18n="nav.games">Games</a></li>
-          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="about.html" class="active" data-i18n="nav.about">About</a></li>
           <li><a href="privacy.html" data-i18n="nav.privacy">Privacy</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero container">
-      <h1 data-i18n="home.heroTitle">EMBER BOX STUDIO</h1>
-      <p data-i18n="home.heroSubtitle">We create charming 2D pixel art games starring our cat mascot, Mel. Explore our worlds below.</p>
-    </section>
+  <main class="container">
 
-    <section class="section container" id="games">
-      <h2 class="section-title" data-i18n="home.gamesTitle">Our Games</h2>
+    <section class="section">
+      <h1 class="section-title" data-i18n="about.title">About Ember Box Studio</h1>
 
-      <div class="games-grid">
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/MelTheCatMainArt.png" alt="Mel the Cat"></div>
-          <div class="game-card-body">
-            <h3>Mel the Cat</h3>
-            <p data-i18n="home.melTheCat.desc">A 2D pixel art platformer where Mel the cat explores levels full of secrets and challenges.</p>
-            <a class="btn" href="games/mel-the-cat.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/MelSpaceMainArt.png" alt="Mel the Space Cat"></div>
-          <div class="game-card-body">
-            <h3>Mel the Space Cat</h3>
-            <p data-i18n="home.melTheSpaceCat.desc">Mel embarks on a space adventure, jumping between planets and ships in search of home.</p>
-            <a class="btn" href="games/mel-the-space-cat.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/MelPyramidMainArt.jpg" alt="Mel the Pyramid Cat"></div>
-          <div class="game-card-body">
-            <h3>Mel the Pyramid Cat</h3>
-            <p data-i18n="home.melThePyramidCat.desc">A journey through ancient pyramids and temples, full of traps and hidden treasures.</p>
-            <a class="btn" href="games/mel-the-pyramid-cat.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/FindTheCatsMainArts.png" alt="Find the Cats"></div>
-          <div class="game-card-body">
-            <h3>Find the Cats</h3>
-            <p data-i18n="home.findTheCats.desc">A casual game about finding hidden kittens in detailed pixel art scenes.</p>
-            <a class="btn" href="games/find-the-cats.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/FindTheCats2MainArt.png" alt="Find the Cats 2"></div>
-          <div class="game-card-body">
-            <h3>Find the Cats 2</h3>
-            <p data-i18n="home.findTheCats2.desc">The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels.</p>
-            <a class="btn" href="games/find-the-cats-2.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
+      <div class="about-block">
+        <div>
+          <h2 data-i18n="about.whoWeAreTitle">Who we are</h2>
+          <p data-i18n="about.whoWeAreP1">Ember Box Studio is an independent studio dedicated to creating 2D pixel art games with great care and attention to detail. We were born from a passion for classic games and a desire to tell simple, fun stories full of personality.</p>
+          <p data-i18n="about.whoWeAreP2">Our mascot, Mel the cat, is the star of all our games — from space platformers to adventures among ancient pyramids.</p>
+        </div>
+        <div class="studio-art">
+          <img class="contain" src="images/emberbox.png" alt="Ember Box Studio logo" data-i18n-attr="alt:common.logoAlt">
+        </div>
       </div>
+
+      <div class="about-block">
+        <div class="studio-art" style="order: 2;">
+          <img src="images/mel.jpg" alt="Mel, the studio's mascot cat" data-i18n-attr="alt:about.melPhotoAlt" style="object-position: center 25%;">
+        </div>
+        <div>
+          <h2 data-i18n="about.missionTitle">Our mission</h2>
+          <p data-i18n="about.missionP1">We want to create accessible, nostalgic and charming pixel art experiences for players of all ages — on any platform.</p>
+          <p data-i18n="about.missionP2">Every game is crafted with care, from the pixel to the soundtrack.</p>
+        </div>
+      </div>
+
+      <h2 class="section-title mt-32" data-i18n="about.valuesTitle">Our values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3 data-i18n="about.value1Title">Art made with love</h3>
+          <p data-i18n="about.value1Desc">Every sprite is hand-drawn, pixel by pixel.</p>
+        </div>
+        <div class="value-card">
+          <h3 data-i18n="about.value2Title">Memorable characters</h3>
+          <p data-i18n="about.value2Desc">Mel joins the player in every adventure.</p>
+        </div>
+        <div class="value-card">
+          <h3 data-i18n="about.value3Title">Fun comes first</h3>
+          <p data-i18n="about.value3Desc">Games that are easy to learn and fun to play.</p>
+        </div>
+        <div class="value-card">
+          <h3 data-i18n="about.value4Title">Independent studio</h3>
+          <p data-i18n="about.value4Desc">Made by people who are passionate about games.</p>
+        </div>
+      </div>
+
     </section>
+
   </main>
 
   <footer class="site-footer">
