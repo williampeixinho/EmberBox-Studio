@@ -27,7 +27,7 @@ window.EMBERBOX_I18N = {
     "common.emailLabel": "Email",
 
     "home.meta.title": "Ember Box Studio — 2D Pixel Art Games",
-    "home.meta.desc": "Ember Box Studio creates charming 2D pixel art games, like Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats and Find the Cats 2.",
+    "home.meta.desc": "Ember Box Studio creates charming 2D pixel art games, like Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats, Find the Cats 2 and Panda: Shards of Aurora.",
     "home.heroTitle": "EMBER BOX STUDIO",
     "home.heroSubtitle": "We create charming 2D pixel art games. Explore our worlds below.",
     "home.gamesTitle": "Our Games",
@@ -36,6 +36,7 @@ window.EMBERBOX_I18N = {
     "home.melThePyramidCat.desc": "A journey through ancient pyramids and temples, full of traps and hidden treasures.",
     "home.findTheCats.desc": "A casual game about finding hidden kittens in detailed pixel art scenes.",
     "home.findTheCats2.desc": "The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels.",
+    "home.pandaShardsOfAurora.desc": "A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder.",
 
     "about.meta.title": "About — Ember Box Studio",
     "about.meta.desc": "Learn about Ember Box Studio, an independent 2D pixel art game studio.",
@@ -94,6 +95,7 @@ window.EMBERBOX_I18N = {
     "game.meta.melThePyramidCat.desc": "Mel the Pyramid Cat: a 2D pixel art pyramid adventure by Ember Box Studio.",
     "game.meta.findTheCats.desc": "Find the Cats: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: a casual pixel art hidden-cats game by Ember Box Studio.",
+    "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: a 2D pixel art arctic adventure by Ember Box Studio.",
 
     "game.melTheCat.tagline": "2D pixel art platformer",
     "game.melTheCat.description": "Mel the Cat is a 2D pixel art platformer where you control Mel, a fearless kitten, on a journey through levels full of obstacles, enemies, and hidden secrets. Jump, explore, and uncover every corner of Mel's world.",
@@ -133,7 +135,15 @@ window.EMBERBOX_I18N = {
     "game.findTheCats2.feature2": "More hidden kittens and new types",
     "game.findTheCats2.feature3": "Extra levels and brand-new challenges",
     "game.findTheCats2.feature4": "Relaxing gameplay, no time pressure",
-    "game.findTheCats2.trailerTitle": "Trailer for Find the Cats 2"
+    "game.findTheCats2.trailerTitle": "Trailer for Find the Cats 2",
+
+    "game.pandaShardsOfAurora.tagline": "2D pixel art arctic adventure",
+    "game.pandaShardsOfAurora.description": "Panda: Shards of Aurora follows a young panda's journey across frozen peaks to recover the scattered Shards of Aurora, guided by a wise elder panda. Along the way, he must outsmart cunning seals and penguins standing in his path.",
+    "game.pandaShardsOfAurora.feature1": "Guided by a wise elder panda mentor",
+    "game.pandaShardsOfAurora.feature2": "Icy mountain landscapes lit by the aurora",
+    "game.pandaShardsOfAurora.feature3": "Battle cunning seals and penguins",
+    "game.pandaShardsOfAurora.feature4": "Collect the scattered Shards of Aurora",
+    "game.pandaShardsOfAurora.trailerTitle": "Trailer for Panda: Shards of Aurora"
   },
 
   pt: {
@@ -157,7 +167,7 @@ window.EMBERBOX_I18N = {
     "common.emailLabel": "E-mail",
 
     "home.meta.title": "Ember Box Studio — Jogos pixel art 2D",
-    "home.meta.desc": "A Ember Box Studio cria jogos pixel art 2D cheios de charme, como Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats e Find the Cats 2.",
+    "home.meta.desc": "A Ember Box Studio cria jogos pixel art 2D cheios de charme, como Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats, Find the Cats 2 e Panda: Shards of Aurora.",
     "home.heroTitle": "EMBER BOX STUDIO",
     "home.heroSubtitle": "Criamos jogos pixel art 2D cheios de personalidade. Explore nossos mundos abaixo.",
     "home.gamesTitle": "Nossos Jogos",
@@ -166,6 +176,7 @@ window.EMBERBOX_I18N = {
     "home.melThePyramidCat.desc": "Uma jornada por pirâmides e templos antigos, cheia de armadilhas e tesouros escondidos.",
     "home.findTheCats.desc": "Um jogo casual de encontrar gatinhos escondidos em cenários pixel art detalhados.",
     "home.findTheCats2.desc": "A continuação de Find the Cats, com novos cenários, mais gatinhos escondidos e fases extras.",
+    "home.pandaShardsOfAurora.desc": "A jornada gelada de um jovem panda para recuperar os Shards of Aurora, guiado por um ancião sábio.",
 
     "about.meta.title": "Sobre — Ember Box Studio",
     "about.meta.desc": "Conheça a Ember Box Studio, estúdio independente de jogos pixel art 2D.",
@@ -224,6 +235,7 @@ window.EMBERBOX_I18N = {
     "game.meta.melThePyramidCat.desc": "Mel the Pyramid Cat: uma aventura entre pirâmides pixel art da Ember Box Studio.",
     "game.meta.findTheCats.desc": "Find the Cats: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
+    "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: uma aventura pixel art 2D no gelo da Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
     "game.melTheCat.description": "Mel the Cat é um jogo de plataforma 2D em pixel art onde você controla Mel, uma gatinha destemida, em uma jornada por fases cheias de obstáculos, inimigos e segredos escondidos. Pule, explore e desvende cada canto do mundo de Mel.",
@@ -263,7 +275,15 @@ window.EMBERBOX_I18N = {
     "game.findTheCats2.feature2": "Mais gatinhos escondidos e novos tipos",
     "game.findTheCats2.feature3": "Fases extras e desafios inéditos",
     "game.findTheCats2.feature4": "Jogabilidade relaxante, sem pressão de tempo",
-    "game.findTheCats2.trailerTitle": "Trailer de Find the Cats 2"
+    "game.findTheCats2.trailerTitle": "Trailer de Find the Cats 2",
+
+    "game.pandaShardsOfAurora.tagline": "Aventura pixel art 2D no gelo",
+    "game.pandaShardsOfAurora.description": "Panda: Shards of Aurora acompanha a jornada de um jovem panda por picos congelados para recuperar os Shards of Aurora espalhados, guiado por um sábio panda ancião. Pelo caminho, ele precisa driblar focas e pinguins astutos que cruzam seu caminho.",
+    "game.pandaShardsOfAurora.feature1": "Guiado por um sábio panda ancião",
+    "game.pandaShardsOfAurora.feature2": "Paisagens geladas iluminadas pela aurora",
+    "game.pandaShardsOfAurora.feature3": "Enfrente focas e pinguins astutos",
+    "game.pandaShardsOfAurora.feature4": "Colete os Shards of Aurora espalhados",
+    "game.pandaShardsOfAurora.trailerTitle": "Trailer de Panda: Shards of Aurora"
   },
 
   es: {
@@ -287,7 +307,7 @@ window.EMBERBOX_I18N = {
     "common.emailLabel": "Correo",
 
     "home.meta.title": "Ember Box Studio — Juegos pixel art 2D",
-    "home.meta.desc": "Ember Box Studio crea juegos pixel art 2D llenos de encanto, como Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats y Find the Cats 2.",
+    "home.meta.desc": "Ember Box Studio crea juegos pixel art 2D llenos de encanto, como Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats, Find the Cats 2 y Panda: Shards of Aurora.",
     "home.heroTitle": "EMBER BOX STUDIO",
     "home.heroSubtitle": "Creamos juegos pixel art 2D llenos de personalidad. Explora nuestros mundos a continuación.",
     "home.gamesTitle": "Nuestros Juegos",
@@ -296,6 +316,7 @@ window.EMBERBOX_I18N = {
     "home.melThePyramidCat.desc": "Un viaje por pirámides y templos antiguos, lleno de trampas y tesoros escondidos.",
     "home.findTheCats.desc": "Un juego casual de encontrar gatitos escondidos en escenarios pixel art detallados.",
     "home.findTheCats2.desc": "La secuela de Find the Cats, con nuevos escenarios, más gatitos escondidos y niveles extra.",
+    "home.pandaShardsOfAurora.desc": "El viaje helado de un joven panda para recuperar los Shards of Aurora, guiado por un anciano sabio.",
 
     "about.meta.title": "Acerca de — Ember Box Studio",
     "about.meta.desc": "Conoce Ember Box Studio, un estudio independiente de juegos pixel art 2D.",
@@ -354,6 +375,7 @@ window.EMBERBOX_I18N = {
     "game.meta.melThePyramidCat.desc": "Mel the Pyramid Cat: una aventura entre pirámides pixel art de Ember Box Studio.",
     "game.meta.findTheCats.desc": "Find the Cats: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
+    "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: una aventura pixel art 2D en el hielo de Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
     "game.melTheCat.description": "Mel the Cat es un juego de plataformas 2D en pixel art donde controlas a Mel, una gatita intrépida, en un viaje por niveles llenos de obstáculos, enemigos y secretos escondidos. Salta, explora y descubre cada rincón del mundo de Mel.",
@@ -393,7 +415,15 @@ window.EMBERBOX_I18N = {
     "game.findTheCats2.feature2": "Más gatitos escondidos y nuevos tipos",
     "game.findTheCats2.feature3": "Niveles extra y desafíos inéditos",
     "game.findTheCats2.feature4": "Jugabilidad relajante, sin presión de tiempo",
-    "game.findTheCats2.trailerTitle": "Tráiler de Find the Cats 2"
+    "game.findTheCats2.trailerTitle": "Tráiler de Find the Cats 2",
+
+    "game.pandaShardsOfAurora.tagline": "Aventura pixel art 2D en el hielo",
+    "game.pandaShardsOfAurora.description": "Panda: Shards of Aurora sigue el viaje de un joven panda por picos congelados para recuperar los Shards of Aurora dispersos, guiado por un sabio panda anciano. En el camino, debe burlar a focas y pingüinos astutos que se cruzan en su camino.",
+    "game.pandaShardsOfAurora.feature1": "Guiado por un sabio panda anciano",
+    "game.pandaShardsOfAurora.feature2": "Paisajes helados iluminados por la aurora",
+    "game.pandaShardsOfAurora.feature3": "Enfréntate a focas y pingüinos astutos",
+    "game.pandaShardsOfAurora.feature4": "Recolecta los Shards of Aurora dispersos",
+    "game.pandaShardsOfAurora.trailerTitle": "Tráiler de Panda: Shards of Aurora"
   }
 
 };
