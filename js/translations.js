@@ -22,12 +22,15 @@ window.EMBERBOX_I18N = {
     "common.footerAddress": "Rua Vapabussu, 66 — São Paulo, Brazil",
     "common.footerCnpj": "CNPJ: 68.802.904/0001-74",
     "common.footerPhone": "Phone: +55 11 92135-3032",
+    "common.comingSoonBadge": "Coming Soon",
+    "common.comingSoonArt": "[main art coming soon]",
+    "common.comingSoonShot": "[screenshot coming soon]",
     "common.openMenu": "Open menu",
     "common.connectTitle": "Connect with us",
     "common.emailLabel": "Email",
 
     "home.meta.title": "Ember Box Studio — 2D Pixel Art Games",
-    "home.meta.desc": "Ember Box Studio creates charming 2D pixel art games, like Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats, Find the Cats 2 and Panda: Shards of Aurora.",
+    "home.meta.desc": "Ember Box Studio creates charming 2D pixel art games — from Mel's adventures to hidden-cat hunts and beyond.",
     "home.heroTitle": "EMBER BOX STUDIO",
     "home.heroSubtitle": "We create charming 2D pixel art games. Explore our worlds below.",
     "home.gamesTitle": "Our Games",
@@ -37,6 +40,7 @@ window.EMBERBOX_I18N = {
     "home.findTheCats.desc": "A casual game about finding hidden kittens in detailed pixel art scenes.",
     "home.findTheCats2.desc": "The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels.",
     "home.pandaShardsOfAurora.desc": "A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder.",
+    "home.findTheCats3.desc": "A spooky new hunt for hidden cats in costumes, arriving this Halloween.",
 
     "about.meta.title": "About — Ember Box Studio",
     "about.meta.desc": "Learn about Ember Box Studio, an independent 2D pixel art game studio.",
@@ -96,6 +100,7 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats.desc": "Find the Cats: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: a 2D pixel art arctic adventure by Ember Box Studio.",
+    "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: a casual pixel art hidden-cats game by Ember Box Studio.",
 
     "game.melTheCat.tagline": "2D pixel art platformer",
     "game.melTheCat.description": "Mel the Cat is a 2D pixel art platformer where you control Mel, a fearless kitten, on a journey through levels full of obstacles, enemies, and hidden secrets. Jump, explore, and uncover every corner of Mel's world.",
@@ -143,7 +148,14 @@ window.EMBERBOX_I18N = {
     "game.pandaShardsOfAurora.feature2": "Icy mountain landscapes lit by the aurora",
     "game.pandaShardsOfAurora.feature3": "Battle cunning seals and penguins",
     "game.pandaShardsOfAurora.feature4": "Collect the scattered Shards of Aurora",
-    "game.pandaShardsOfAurora.trailerTitle": "Trailer for Panda: Shards of Aurora"
+    "game.pandaShardsOfAurora.trailerTitle": "Trailer for Panda: Shards of Aurora",
+
+    "game.findTheCats3.tagline": "Casual pixel art Halloween hidden-cats game",
+    "game.findTheCats3.description": "Find the Cats 3: Halloween Hunt brings the hidden-cats series into the spookiest season of the year. Explore pumpkin patches, haunted houses, and candy-filled streets in search of cats dressed up for Halloween.",
+    "game.findTheCats3.feature1": "Spooky Halloween-themed scenes to explore",
+    "game.findTheCats3.feature2": "Find cats in costumes and creepy hiding spots",
+    "game.findTheCats3.feature3": "New seasonal characters and decorations",
+    "game.findTheCats3.feature4": "Relaxing gameplay, no time pressure"
   },
 
   pt: {
@@ -162,12 +174,15 @@ window.EMBERBOX_I18N = {
     "common.footerAddress": "Rua Vapabussu, 66 — São Paulo, Brasil",
     "common.footerCnpj": "CNPJ: 68.802.904/0001-74",
     "common.footerPhone": "Telefone: +55 11 92135-3032",
+    "common.comingSoonBadge": "Em Breve",
+    "common.comingSoonArt": "[arte principal em breve]",
+    "common.comingSoonShot": "[screenshot em breve]",
     "common.openMenu": "Abrir menu",
     "common.connectTitle": "Conecte-se com a gente",
     "common.emailLabel": "E-mail",
 
     "home.meta.title": "Ember Box Studio — Jogos pixel art 2D",
-    "home.meta.desc": "A Ember Box Studio cria jogos pixel art 2D cheios de charme, como Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats, Find the Cats 2 e Panda: Shards of Aurora.",
+    "home.meta.desc": "A Ember Box Studio cria jogos pixel art 2D cheios de charme — das aventuras da Mel às caças de gatinhos escondidos e muito mais.",
     "home.heroTitle": "EMBER BOX STUDIO",
     "home.heroSubtitle": "Criamos jogos pixel art 2D cheios de personalidade. Explore nossos mundos abaixo.",
     "home.gamesTitle": "Nossos Jogos",
@@ -177,6 +192,7 @@ window.EMBERBOX_I18N = {
     "home.findTheCats.desc": "Um jogo casual de encontrar gatinhos escondidos em cenários pixel art detalhados.",
     "home.findTheCats2.desc": "A continuação de Find the Cats, com novos cenários, mais gatinhos escondidos e fases extras.",
     "home.pandaShardsOfAurora.desc": "A jornada gelada de um jovem panda para recuperar os Shards of Aurora, guiado por um ancião sábio.",
+    "home.findTheCats3.desc": "Uma nova caçada assombrada por gatinhos escondidos fantasiados, chegando neste Halloween.",
 
     "about.meta.title": "Sobre — Ember Box Studio",
     "about.meta.desc": "Conheça a Ember Box Studio, estúdio independente de jogos pixel art 2D.",
@@ -236,6 +252,7 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats.desc": "Find the Cats: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: uma aventura pixel art 2D no gelo da Ember Box Studio.",
+    "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
     "game.melTheCat.description": "Mel the Cat é um jogo de plataforma 2D em pixel art onde você controla Mel, uma gatinha destemida, em uma jornada por fases cheias de obstáculos, inimigos e segredos escondidos. Pule, explore e desvende cada canto do mundo de Mel.",
@@ -283,7 +300,14 @@ window.EMBERBOX_I18N = {
     "game.pandaShardsOfAurora.feature2": "Paisagens geladas iluminadas pela aurora",
     "game.pandaShardsOfAurora.feature3": "Enfrente focas e pinguins astutos",
     "game.pandaShardsOfAurora.feature4": "Colete os Shards of Aurora espalhados",
-    "game.pandaShardsOfAurora.trailerTitle": "Trailer de Panda: Shards of Aurora"
+    "game.pandaShardsOfAurora.trailerTitle": "Trailer de Panda: Shards of Aurora",
+
+    "game.findTheCats3.tagline": "Jogo casual pixel art de gatinhos escondidos no Halloween",
+    "game.findTheCats3.description": "Find the Cats 3: Halloween Hunt leva a série de gatinhos escondidos para a época mais assombrada do ano. Explore plantações de abóboras, casas mal-assombradas e ruas cheias de doces em busca de gatos fantasiados para o Halloween.",
+    "game.findTheCats3.feature1": "Cenários assombrados com tema de Halloween",
+    "game.findTheCats3.feature2": "Encontre gatos fantasiados em esconderijos assustadores",
+    "game.findTheCats3.feature3": "Novos personagens e decorações sazonais",
+    "game.findTheCats3.feature4": "Jogabilidade relaxante, sem pressão de tempo"
   },
 
   es: {
@@ -302,12 +326,15 @@ window.EMBERBOX_I18N = {
     "common.footerAddress": "Rua Vapabussu, 66 — São Paulo, Brasil",
     "common.footerCnpj": "CNPJ: 68.802.904/0001-74",
     "common.footerPhone": "Teléfono: +55 11 92135-3032",
+    "common.comingSoonBadge": "Próximamente",
+    "common.comingSoonArt": "[arte principal próximamente]",
+    "common.comingSoonShot": "[captura próximamente]",
     "common.openMenu": "Abrir menú",
     "common.connectTitle": "Conéctate con nosotros",
     "common.emailLabel": "Correo",
 
     "home.meta.title": "Ember Box Studio — Juegos pixel art 2D",
-    "home.meta.desc": "Ember Box Studio crea juegos pixel art 2D llenos de encanto, como Mel the Cat, Mel the Space Cat, Mel the Pyramid Cat, Find the Cats, Find the Cats 2 y Panda: Shards of Aurora.",
+    "home.meta.desc": "Ember Box Studio crea juegos pixel art 2D llenos de encanto — desde las aventuras de Mel hasta cacerías de gatitos escondidos y mucho más.",
     "home.heroTitle": "EMBER BOX STUDIO",
     "home.heroSubtitle": "Creamos juegos pixel art 2D llenos de personalidad. Explora nuestros mundos a continuación.",
     "home.gamesTitle": "Nuestros Juegos",
@@ -317,6 +344,7 @@ window.EMBERBOX_I18N = {
     "home.findTheCats.desc": "Un juego casual de encontrar gatitos escondidos en escenarios pixel art detallados.",
     "home.findTheCats2.desc": "La secuela de Find the Cats, con nuevos escenarios, más gatitos escondidos y niveles extra.",
     "home.pandaShardsOfAurora.desc": "El viaje helado de un joven panda para recuperar los Shards of Aurora, guiado por un anciano sabio.",
+    "home.findTheCats3.desc": "Una nueva búsqueda espeluznante de gatitos escondidos disfrazados, llegando esta Halloween.",
 
     "about.meta.title": "Acerca de — Ember Box Studio",
     "about.meta.desc": "Conoce Ember Box Studio, un estudio independiente de juegos pixel art 2D.",
@@ -376,6 +404,7 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats.desc": "Find the Cats: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: una aventura pixel art 2D en el hielo de Ember Box Studio.",
+    "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
     "game.melTheCat.description": "Mel the Cat es un juego de plataformas 2D en pixel art donde controlas a Mel, una gatita intrépida, en un viaje por niveles llenos de obstáculos, enemigos y secretos escondidos. Salta, explora y descubre cada rincón del mundo de Mel.",
@@ -423,7 +452,14 @@ window.EMBERBOX_I18N = {
     "game.pandaShardsOfAurora.feature2": "Paisajes helados iluminados por la aurora",
     "game.pandaShardsOfAurora.feature3": "Enfréntate a focas y pingüinos astutos",
     "game.pandaShardsOfAurora.feature4": "Recolecta los Shards of Aurora dispersos",
-    "game.pandaShardsOfAurora.trailerTitle": "Tráiler de Panda: Shards of Aurora"
+    "game.pandaShardsOfAurora.trailerTitle": "Tráiler de Panda: Shards of Aurora",
+
+    "game.findTheCats3.tagline": "Juego casual pixel art de gatitos escondidos de Halloween",
+    "game.findTheCats3.description": "Find the Cats 3: Halloween Hunt lleva la serie de gatitos escondidos a la temporada más espeluznante del año. Explora campos de calabazas, casas embrujadas y calles llenas de dulces en busca de gatos disfrazados para Halloween.",
+    "game.findTheCats3.feature1": "Escenarios espeluznantes de temática Halloween",
+    "game.findTheCats3.feature2": "Encuentra gatos disfrazados en escondites escalofriantes",
+    "game.findTheCats3.feature3": "Nuevos personajes y decoraciones de temporada",
+    "game.findTheCats3.feature4": "Jugabilidad relajante, sin presión de tiempo"
   }
 
 };

@@ -296,10 +296,34 @@ h1, h2, h3, .font-display {
 }
 
 .game-card-thumb {
+  position: relative;
   aspect-ratio: 16 / 9;
   width: 100%;
   border-bottom: 3px solid var(--color-border);
   overflow: hidden;
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 10px;
+  padding: 6px 10px;
+  background: var(--color-primary);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  letter-spacing: 0.5px;
+}
+
+.game-card-thumb .coming-soon-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  box-shadow: var(--shadow-pixel);
+}
+
+.game-hero .coming-soon-badge {
+  margin-bottom: 14px;
 }
 
 .game-card-thumb img {
