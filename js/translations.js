@@ -160,10 +160,10 @@ window.EMBERBOX_I18N = {
     "game.findTheCats3.feature4": "Relaxing gameplay, no time pressure",
 
     "game.pandaCurseOfThePumpkin.tagline": "2D pixel art Halloween adventure",
-    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin brings back our young panda hero, this time facing a Halloween curse that has turned the mountain village into a land of haunted jack-o'-lanterns and restless spirits. Guided once again by the wise elder panda, he must break the curse before the harvest moon fades.",
+    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin brings back our young panda hero, this time facing a Halloween curse that has twisted his forest friends into monstrous creatures of the night. Guided once again by the wise elder panda, he must defeat them one by one to break the curse before the harvest moon fades.",
     "game.pandaCurseOfThePumpkin.feature1": "A spooky sequel to Panda: Shards of Aurora",
     "game.pandaCurseOfThePumpkin.feature2": "Guided once more by the wise elder panda",
-    "game.pandaCurseOfThePumpkin.feature3": "Haunted villages and jack-o'-lantern enemies",
+    "game.pandaCurseOfThePumpkin.feature3": "Defeat forest friends transformed into Halloween monsters",
     "game.pandaCurseOfThePumpkin.feature4": "Break the curse before the harvest moon fades"
   },
 
@@ -321,10 +321,10 @@ window.EMBERBOX_I18N = {
     "game.findTheCats3.feature4": "Jogabilidade relaxante, sem pressão de tempo",
 
     "game.pandaCurseOfThePumpkin.tagline": "Aventura pixel art 2D de Halloween",
-    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin traz de volta nosso jovem panda herói, desta vez enfrentando uma maldição de Halloween que transformou a vila da montanha em uma terra de abóboras assombradas e espíritos inquietos. Guiado mais uma vez pelo sábio panda ancião, ele precisa quebrar a maldição antes que a lua da colheita se apague.",
+    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin traz de volta nosso jovem panda herói, desta vez enfrentando uma maldição de Halloween que transformou seus amigos da floresta em criaturas monstruosas da noite. Guiado mais uma vez pelo sábio panda ancião, ele precisa derrotá-los um a um para quebrar a maldição antes que a lua da colheita se apague.",
     "game.pandaCurseOfThePumpkin.feature1": "Uma sequência assombrada de Panda: Shards of Aurora",
     "game.pandaCurseOfThePumpkin.feature2": "Guiado mais uma vez pelo sábio panda ancião",
-    "game.pandaCurseOfThePumpkin.feature3": "Vilas assombradas e inimigos-abóbora",
+    "game.pandaCurseOfThePumpkin.feature3": "Derrote amigos da floresta transformados em monstros de Halloween",
     "game.pandaCurseOfThePumpkin.feature4": "Quebre a maldição antes que a lua da colheita se apague"
   },
 
@@ -482,10 +482,10 @@ window.EMBERBOX_I18N = {
     "game.findTheCats3.feature4": "Jugabilidad relajante, sin presión de tiempo",
 
     "game.pandaCurseOfThePumpkin.tagline": "Aventura pixel art 2D de Halloween",
-    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin trae de vuelta a nuestro joven panda héroe, esta vez enfrentando una maldición de Halloween que ha convertido el pueblo de la montaña en una tierra de calabazas embrujadas y espíritus inquietos. Guiado una vez más por el sabio panda anciano, debe romper la maldición antes de que la luna de la cosecha se apague.",
+    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin trae de vuelta a nuestro joven panda héroe, esta vez enfrentando una maldición de Halloween que ha convertido a sus amigos del bosque en criaturas monstruosas de la noche. Guiado una vez más por el sabio panda anciano, debe derrotarlos uno a uno para romper la maldición antes de que la luna de la cosecha se apague.",
     "game.pandaCurseOfThePumpkin.feature1": "Una secuela espeluznante de Panda: Shards of Aurora",
     "game.pandaCurseOfThePumpkin.feature2": "Guiado una vez más por el sabio panda anciano",
-    "game.pandaCurseOfThePumpkin.feature3": "Pueblos embrujados y enemigos calabaza",
+    "game.pandaCurseOfThePumpkin.feature3": "Derrota a los amigos del bosque convertidos en monstruos de Halloween",
     "game.pandaCurseOfThePumpkin.feature4": "Rompe la maldición antes de que la luna de la cosecha se apague"
   }
 
