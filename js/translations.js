@@ -41,6 +41,7 @@ window.EMBERBOX_I18N = {
     "home.findTheCats2.desc": "The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels.",
     "home.pandaShardsOfAurora.desc": "A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder.",
     "home.findTheCats3.desc": "A spooky new hunt for hidden cats in costumes, arriving this Halloween.",
+    "home.pandaCurseOfThePumpkin.desc": "The panda's next adventure: breaking a Halloween curse before the harvest moon fades.",
 
     "about.meta.title": "About — Ember Box Studio",
     "about.meta.desc": "Learn about Ember Box Studio, an independent 2D pixel art game studio.",
@@ -101,6 +102,7 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats2.desc": "Find the Cats 2: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: a 2D pixel art arctic adventure by Ember Box Studio.",
     "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: a casual pixel art hidden-cats game by Ember Box Studio.",
+    "game.meta.pandaCurseOfThePumpkin.desc": "Panda: Curse of the Pumpkin: a 2D pixel art Halloween adventure by Ember Box Studio.",
 
     "game.melTheCat.tagline": "2D pixel art platformer",
     "game.melTheCat.description": "Mel the Cat is a 2D pixel art platformer where you control Mel, a fearless kitten, on a journey through levels full of obstacles, enemies, and hidden secrets. Jump, explore, and uncover every corner of Mel's world.",
@@ -155,7 +157,14 @@ window.EMBERBOX_I18N = {
     "game.findTheCats3.feature1": "Spooky Halloween-themed scenes to explore",
     "game.findTheCats3.feature2": "Find cats in costumes and creepy hiding spots",
     "game.findTheCats3.feature3": "New seasonal characters and decorations",
-    "game.findTheCats3.feature4": "Relaxing gameplay, no time pressure"
+    "game.findTheCats3.feature4": "Relaxing gameplay, no time pressure",
+
+    "game.pandaCurseOfThePumpkin.tagline": "2D pixel art Halloween adventure",
+    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin brings back our young panda hero, this time facing a Halloween curse that has turned the mountain village into a land of haunted jack-o'-lanterns and restless spirits. Guided once again by the wise elder panda, he must break the curse before the harvest moon fades.",
+    "game.pandaCurseOfThePumpkin.feature1": "A spooky sequel to Panda: Shards of Aurora",
+    "game.pandaCurseOfThePumpkin.feature2": "Guided once more by the wise elder panda",
+    "game.pandaCurseOfThePumpkin.feature3": "Haunted villages and jack-o'-lantern enemies",
+    "game.pandaCurseOfThePumpkin.feature4": "Break the curse before the harvest moon fades"
   },
 
   pt: {
@@ -193,6 +202,7 @@ window.EMBERBOX_I18N = {
     "home.findTheCats2.desc": "A continuação de Find the Cats, com novos cenários, mais gatinhos escondidos e fases extras.",
     "home.pandaShardsOfAurora.desc": "A jornada gelada de um jovem panda para recuperar os Shards of Aurora, guiado por um ancião sábio.",
     "home.findTheCats3.desc": "Uma nova caçada assombrada por gatinhos escondidos fantasiados, chegando neste Halloween.",
+    "home.pandaCurseOfThePumpkin.desc": "A próxima aventura do panda: quebrar uma maldição de Halloween antes que a lua da colheita se apague.",
 
     "about.meta.title": "Sobre — Ember Box Studio",
     "about.meta.desc": "Conheça a Ember Box Studio, estúdio independente de jogos pixel art 2D.",
@@ -253,6 +263,7 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats2.desc": "Find the Cats 2: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: uma aventura pixel art 2D no gelo da Ember Box Studio.",
     "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
+    "game.meta.pandaCurseOfThePumpkin.desc": "Panda: Curse of the Pumpkin: uma aventura pixel art 2D de Halloween da Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
     "game.melTheCat.description": "Mel the Cat é um jogo de plataforma 2D em pixel art onde você controla Mel, uma gatinha destemida, em uma jornada por fases cheias de obstáculos, inimigos e segredos escondidos. Pule, explore e desvende cada canto do mundo de Mel.",
@@ -307,7 +318,14 @@ window.EMBERBOX_I18N = {
     "game.findTheCats3.feature1": "Cenários assombrados com tema de Halloween",
     "game.findTheCats3.feature2": "Encontre gatos fantasiados em esconderijos assustadores",
     "game.findTheCats3.feature3": "Novos personagens e decorações sazonais",
-    "game.findTheCats3.feature4": "Jogabilidade relaxante, sem pressão de tempo"
+    "game.findTheCats3.feature4": "Jogabilidade relaxante, sem pressão de tempo",
+
+    "game.pandaCurseOfThePumpkin.tagline": "Aventura pixel art 2D de Halloween",
+    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin traz de volta nosso jovem panda herói, desta vez enfrentando uma maldição de Halloween que transformou a vila da montanha em uma terra de abóboras assombradas e espíritos inquietos. Guiado mais uma vez pelo sábio panda ancião, ele precisa quebrar a maldição antes que a lua da colheita se apague.",
+    "game.pandaCurseOfThePumpkin.feature1": "Uma sequência assombrada de Panda: Shards of Aurora",
+    "game.pandaCurseOfThePumpkin.feature2": "Guiado mais uma vez pelo sábio panda ancião",
+    "game.pandaCurseOfThePumpkin.feature3": "Vilas assombradas e inimigos-abóbora",
+    "game.pandaCurseOfThePumpkin.feature4": "Quebre a maldição antes que a lua da colheita se apague"
   },
 
   es: {
@@ -345,6 +363,7 @@ window.EMBERBOX_I18N = {
     "home.findTheCats2.desc": "La secuela de Find the Cats, con nuevos escenarios, más gatitos escondidos y niveles extra.",
     "home.pandaShardsOfAurora.desc": "El viaje helado de un joven panda para recuperar los Shards of Aurora, guiado por un anciano sabio.",
     "home.findTheCats3.desc": "Una nueva búsqueda espeluznante de gatitos escondidos disfrazados, llegando esta Halloween.",
+    "home.pandaCurseOfThePumpkin.desc": "La próxima aventura del panda: romper una maldición de Halloween antes de que la luna de la cosecha se apague.",
 
     "about.meta.title": "Acerca de — Ember Box Studio",
     "about.meta.desc": "Conoce Ember Box Studio, un estudio independiente de juegos pixel art 2D.",
@@ -405,6 +424,7 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats2.desc": "Find the Cats 2: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: una aventura pixel art 2D en el hielo de Ember Box Studio.",
     "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
+    "game.meta.pandaCurseOfThePumpkin.desc": "Panda: Curse of the Pumpkin: una aventura pixel art 2D de Halloween de Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
     "game.melTheCat.description": "Mel the Cat es un juego de plataformas 2D en pixel art donde controlas a Mel, una gatita intrépida, en un viaje por niveles llenos de obstáculos, enemigos y secretos escondidos. Salta, explora y descubre cada rincón del mundo de Mel.",
@@ -459,7 +479,14 @@ window.EMBERBOX_I18N = {
     "game.findTheCats3.feature1": "Escenarios espeluznantes de temática Halloween",
     "game.findTheCats3.feature2": "Encuentra gatos disfrazados en escondites escalofriantes",
     "game.findTheCats3.feature3": "Nuevos personajes y decoraciones de temporada",
-    "game.findTheCats3.feature4": "Jugabilidad relajante, sin presión de tiempo"
+    "game.findTheCats3.feature4": "Jugabilidad relajante, sin presión de tiempo",
+
+    "game.pandaCurseOfThePumpkin.tagline": "Aventura pixel art 2D de Halloween",
+    "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin trae de vuelta a nuestro joven panda héroe, esta vez enfrentando una maldición de Halloween que ha convertido el pueblo de la montaña en una tierra de calabazas embrujadas y espíritus inquietos. Guiado una vez más por el sabio panda anciano, debe romper la maldición antes de que la luna de la cosecha se apague.",
+    "game.pandaCurseOfThePumpkin.feature1": "Una secuela espeluznante de Panda: Shards of Aurora",
+    "game.pandaCurseOfThePumpkin.feature2": "Guiado una vez más por el sabio panda anciano",
+    "game.pandaCurseOfThePumpkin.feature3": "Pueblos embrujados y enemigos calabaza",
+    "game.pandaCurseOfThePumpkin.feature4": "Rompe la maldición antes de que la luna de la cosecha se apague"
   }
 
 };
