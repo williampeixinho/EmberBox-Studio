@@ -64,10 +64,6 @@
           <p data-i18n="publishing.cover1Desc">We cover the technical expenses of porting and certifying your game for each platform.</p>
         </div>
         <div class="value-card">
-          <h3 data-i18n="publishing.cover2Title">Required Art</h3>
-          <p data-i18n="publishing.cover2Desc">Our team produces any additional art assets needed to meet each platform's requirements.</p>
-        </div>
-        <div class="value-card">
           <h3 data-i18n="publishing.cover3Title">Publishing</h3>
           <p data-i18n="publishing.cover3Desc">We manage the full submission and certification process with each platform holder.</p>
         </div>
@@ -92,7 +88,53 @@
       <div class="publishing-cta mt-32">
         <h2 class="section-title" data-i18n="publishing.ctaTitle">Ready to Pitch Your Game?</h2>
         <p data-i18n="publishing.ctaText">Tell us about your game and what you're looking for — we'd love to hear from you.</p>
-        <a class="btn" href="mailto:contact@emberboxstudio.com?subject=Game%20Pitch%20%E2%80%94%20Partner%20Publishing" data-i18n="publishing.ctaButton">Contact Us</a>
+
+        <form class="pitch-form" id="pitch-form">
+          <div class="form-field">
+            <label for="pitch-game-name" data-i18n="publishing.form.gameNameLabel">Game name</label>
+            <input type="text" id="pitch-game-name" name="gameName" required>
+          </div>
+
+          <div class="form-field">
+            <label for="pitch-about" data-i18n="publishing.form.aboutLabel">Tell us about your game</label>
+            <textarea id="pitch-about" name="about" rows="5" required></textarea>
+          </div>
+
+          <div class="form-field">
+            <label for="pitch-genre" data-i18n="publishing.form.genreLabel">Genre</label>
+            <input type="text" id="pitch-genre" name="genre" required>
+          </div>
+
+          <div class="form-field">
+            <label for="pitch-gameplay-link" data-i18n="publishing.form.gameplayLinkLabel">Gameplay link (video)</label>
+            <input type="url" id="pitch-gameplay-link" name="gameplayLink" placeholder="https://">
+          </div>
+
+          <div class="form-field">
+            <label for="pitch-build-link" data-i18n="publishing.form.buildLinkLabel">Playable build link</label>
+            <input type="url" id="pitch-build-link" name="buildLink" placeholder="https://">
+          </div>
+
+          <div class="form-field">
+            <label for="pitch-extra" data-i18n="publishing.form.extraLabel">Additional links and comments</label>
+            <textarea id="pitch-extra" name="extra" rows="4"></textarea>
+          </div>
+
+          <fieldset class="form-field">
+            <legend data-i18n="publishing.form.modelLabel">Preferred business model</legend>
+            <label class="form-checkbox">
+              <input type="checkbox" name="model" value="Revenue Share (50/50)">
+              <span data-i18n="publishing.form.modelRevShare">Revenue Share (50/50)</span>
+            </label>
+            <label class="form-checkbox">
+              <input type="checkbox" name="model" value="Custom Quote">
+              <span data-i18n="publishing.form.modelQuote">Custom Quote</span>
+            </label>
+          </fieldset>
+
+          <button type="submit" class="btn" data-i18n="publishing.form.submit">Send Pitch</button>
+          <p class="form-note" data-i18n="publishing.form.note">This opens your email app with everything pre-filled, addressed to contact@emberboxstudio.com — just hit send.</p>
+        </form>
       </div>
 
     </section>
