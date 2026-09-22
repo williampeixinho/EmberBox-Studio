@@ -537,6 +537,99 @@ h1, h2, h3, .font-display {
   color: var(--color-text-dim);
 }
 
+/* ---------- Publishing page ---------- */
+
+.publishing-intro {
+  max-width: 640px;
+  margin: 0 auto 8px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-text-dim);
+}
+
+.platform-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.platform-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 11px;
+  padding: 10px 14px;
+  border: 2px solid var(--color-border);
+  background: var(--color-panel);
+  color: var(--color-text);
+}
+
+.platform-pill .tag {
+  font-size: 9px;
+  padding: 3px 6px;
+  border: 1px solid currentColor;
+  letter-spacing: 0.5px;
+}
+
+.platform-pill.direct {
+  border-color: var(--color-primary);
+}
+
+.platform-pill.direct .tag {
+  background: var(--color-primary);
+  color: var(--color-ink);
+  border-color: var(--color-ink);
+}
+
+.platform-pill.partner .tag {
+  color: var(--color-text-dim);
+}
+
+.model-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.model-card {
+  background: var(--color-panel);
+  border: 3px solid var(--color-border);
+  box-shadow: var(--shadow-pixel);
+  padding: 28px;
+  text-align: center;
+  transition: border-color 0.1s;
+}
+
+.model-card:hover {
+  border-color: var(--color-primary);
+}
+
+.model-card h3 {
+  font-size: 15px;
+  color: var(--color-primary);
+  margin-bottom: 14px;
+}
+
+.model-card p {
+  font-size: 19px;
+  color: var(--color-text-dim);
+}
+
+.publishing-cta {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.publishing-cta p {
+  font-size: 20px;
+  color: var(--color-text-dim);
+  margin-bottom: 20px;
+}
+
 /* ---------- Privacy / legal page ---------- */
 
 .legal-content h2 {
