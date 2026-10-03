@@ -43,6 +43,7 @@ window.EMBERBOX_I18N = {
     "home.pandaShardsOfAurora.desc": "A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder.",
     "home.findTheCats3.desc": "A spooky new hunt for hidden cats in costumes, arriving this Halloween.",
     "home.pandaCurseOfThePumpkin.desc": "The panda's next adventure: breaking a Halloween curse before the harvest moon fades.",
+    "home.melsJigsaw.desc": "A cozy jigsaw puzzle game with beautiful pixel art worlds, hosted by Mel the cat.",
 
     "about.meta.title": "About — Ember Box Studio",
     "about.meta.desc": "Learn about Ember Box Studio, an independent 2D pixel art game studio.",
@@ -199,7 +200,17 @@ window.EMBERBOX_I18N = {
     "game.pandaCurseOfThePumpkin.feature1": "A spooky sequel to Panda: Shards of Aurora",
     "game.pandaCurseOfThePumpkin.feature2": "Guided once more by the wise elder panda",
     "game.pandaCurseOfThePumpkin.feature3": "Defeat forest friends transformed into Halloween monsters",
-    "game.pandaCurseOfThePumpkin.feature4": "Break the curse before the harvest moon fades"
+    "game.pandaCurseOfThePumpkin.feature4": "Break the curse before the harvest moon fades",
+    "game.meta.melsJigsaw.desc": "Mel's Jigsaw Adventures: a cozy pixel art jigsaw puzzle game by Ember Box Studio.",
+    "game.melsJigsaw.tagline": "Cozy pixel art jigsaw puzzles",
+    "game.melsJigsaw.description": "Mel's Jigsaw Adventures is a cozy jigsaw puzzle game set in the world of Mel the Cat. Relax with hand-drawn pixel art scenes from space, forests, deserts and snowy mountains, with Mel by your side to cheer you on, give you hints and tell the story behind every picture. No timer, no pressure — just you, the pieces and a good controller.",
+    "game.melsJigsaw.feature1": "40 hand-drawn pixel art illustrations across 4 themed worlds",
+    "game.melsJigsaw.feature2": "Three difficulty levels, from relaxing 24-piece puzzles to bigger challenges",
+    "game.melsJigsaw.feature3": "Mel helps with hints, reactions and stories about each scene",
+    "game.melsJigsaw.feature4": "Hidden paw prints, a collectible gallery and plenty of achievements",
+    "game.melsJigsaw.feature5": "Made for gamepad first, with full mouse and keyboard support",
+    "game.melsJigsaw.feature6": "Available in 9 languages",
+    "game.melsJigsaw.worlds": "Worlds"
   },
 
   pt: {
@@ -239,6 +250,7 @@ window.EMBERBOX_I18N = {
     "home.pandaShardsOfAurora.desc": "A jornada gelada de um jovem panda para recuperar os Shards of Aurora, guiado por um ancião sábio.",
     "home.findTheCats3.desc": "Uma nova caçada assombrada por gatinhos escondidos fantasiados, chegando neste Halloween.",
     "home.pandaCurseOfThePumpkin.desc": "A próxima aventura do panda: quebrar uma maldição de Halloween antes que a lua da colheita se apague.",
+    "home.melsJigsaw.desc": "Um jogo de quebra-cabeças aconchegante, com mundos lindos em pixel art e a Mel como anfitriã.",
 
     "about.meta.title": "Sobre — Ember Box Studio",
     "about.meta.desc": "Conheça a Ember Box Studio, estúdio independente de jogos pixel art 2D.",
@@ -395,7 +407,17 @@ window.EMBERBOX_I18N = {
     "game.pandaCurseOfThePumpkin.feature1": "Uma sequência assombrada de Panda: Shards of Aurora",
     "game.pandaCurseOfThePumpkin.feature2": "Guiado mais uma vez pelo sábio panda ancião",
     "game.pandaCurseOfThePumpkin.feature3": "Derrote amigos da floresta transformados em monstros de Halloween",
-    "game.pandaCurseOfThePumpkin.feature4": "Quebre a maldição antes que a lua da colheita se apague"
+    "game.pandaCurseOfThePumpkin.feature4": "Quebre a maldição antes que a lua da colheita se apague",
+    "game.meta.melsJigsaw.desc": "Mel's Jigsaw Adventures: um jogo de quebra-cabeças aconchegante em pixel art da Ember Box Studio.",
+    "game.melsJigsaw.tagline": "Quebra-cabeças aconchegantes em pixel art",
+    "game.melsJigsaw.description": "Mel's Jigsaw Adventures é um jogo de quebra-cabeças aconchegante no universo de Mel the Cat. Relaxe com cenários desenhados à mão em pixel art — espaço, florestas, desertos e montanhas nevadas — com a Mel ao seu lado para torcer por você, dar dicas e contar a história de cada imagem. Sem cronômetro, sem pressão: só você, as peças e um bom controle.",
+    "game.melsJigsaw.feature1": "40 ilustrações em pixel art desenhadas à mão, em 4 mundos temáticos",
+    "game.melsJigsaw.feature2": "Três níveis de dificuldade, de quebra-cabeças relaxantes de 24 peças a desafios maiores",
+    "game.melsJigsaw.feature3": "A Mel ajuda com dicas, reações e histórias sobre cada cenário",
+    "game.melsJigsaw.feature4": "Patinhas escondidas, galeria de imagens e muitas conquistas",
+    "game.melsJigsaw.feature5": "Feito primeiro para controle, com suporte completo a mouse e teclado",
+    "game.melsJigsaw.feature6": "Disponível em 9 idiomas",
+    "game.melsJigsaw.worlds": "Mundos"
   },
 
   es: {
@@ -435,6 +457,7 @@ window.EMBERBOX_I18N = {
     "home.pandaShardsOfAurora.desc": "El viaje helado de un joven panda para recuperar los Shards of Aurora, guiado por un anciano sabio.",
     "home.findTheCats3.desc": "Una nueva búsqueda espeluznante de gatitos escondidos disfrazados, llegando esta Halloween.",
     "home.pandaCurseOfThePumpkin.desc": "La próxima aventura del panda: romper una maldición de Halloween antes de que la luna de la cosecha se apague.",
+    "home.melsJigsaw.desc": "Un acogedor juego de rompecabezas con hermosos mundos en pixel art, con Mel como anfitriona.",
 
     "about.meta.title": "Acerca de — Ember Box Studio",
     "about.meta.desc": "Conoce Ember Box Studio, un estudio independiente de juegos pixel art 2D.",
@@ -591,7 +614,17 @@ window.EMBERBOX_I18N = {
     "game.pandaCurseOfThePumpkin.feature1": "Una secuela espeluznante de Panda: Shards of Aurora",
     "game.pandaCurseOfThePumpkin.feature2": "Guiado una vez más por el sabio panda anciano",
     "game.pandaCurseOfThePumpkin.feature3": "Derrota a los amigos del bosque convertidos en monstruos de Halloween",
-    "game.pandaCurseOfThePumpkin.feature4": "Rompe la maldición antes de que la luna de la cosecha se apague"
+    "game.pandaCurseOfThePumpkin.feature4": "Rompe la maldición antes de que la luna de la cosecha se apague",
+    "game.meta.melsJigsaw.desc": "Mel's Jigsaw Adventures: un acogedor juego de rompecabezas en pixel art de Ember Box Studio.",
+    "game.melsJigsaw.tagline": "Rompecabezas acogedores en pixel art",
+    "game.melsJigsaw.description": "Mel's Jigsaw Adventures es un acogedor juego de rompecabezas ambientado en el mundo de Mel the Cat. Relájate con escenas de pixel art dibujadas a mano —espacio, bosques, desiertos y montañas nevadas— con Mel a tu lado para animarte, darte pistas y contarte la historia de cada imagen. Sin cronómetro, sin presión: solo tú, las piezas y un buen mando.",
+    "game.melsJigsaw.feature1": "40 ilustraciones de pixel art dibujadas a mano en 4 mundos temáticos",
+    "game.melsJigsaw.feature2": "Tres niveles de dificultad, desde relajantes rompecabezas de 24 piezas hasta retos mayores",
+    "game.melsJigsaw.feature3": "Mel ayuda con pistas, reacciones e historias sobre cada escena",
+    "game.melsJigsaw.feature4": "Huellas ocultas, galería coleccionable y muchos logros",
+    "game.melsJigsaw.feature5": "Pensado primero para mando, con soporte completo de ratón y teclado",
+    "game.melsJigsaw.feature6": "Disponible en 9 idiomas",
+    "game.melsJigsaw.worlds": "Mundos"
   }
 
 };
