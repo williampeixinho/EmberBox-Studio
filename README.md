@@ -71,9 +71,11 @@ em outras pastas.
 
 ## O que ainda falta
 
-- **Find the Cats 3: Halloween Hunt** e **Panda: Curse of the Pumpkin** (Em breve): arte de
-  capa, trailer e links de loja. Os botões de loja foram removidos até as páginas da loja
-  existirem — ao lançar, copie o bloco `store-buttons` de outro jogo.
+- **Find the Cats 3: Halloween Hunt** (Em breve): arte de capa, screenshots, trailer e links de loja.
+- **Panda: Curse of the Pumpkin** (Em breve): arte de capa e links de loja (o trailer já está no
+  site, em `videos/`, com legendas EN/PT).
+- Nos jogos "em breve" os botões de loja foram removidos até as páginas da loja existirem — ao
+  lançar, copie o bloco `store` de outro jogo.
 - **Mel's Jigsaw Adventures** (Em breve): links de loja.
 - **Formulário de pitch**: hoje abre o app de e-mail do visitante (com um quadro de "copiar
   pitch" se o app não abrir). Quando o site estiver no Netlify, troque por Netlify Forms para
