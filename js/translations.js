@@ -8,7 +8,7 @@ window.EMBERBOX_I18N = {
 
   en: {
     "home.hero.title": "Small games,<br>packed with <em>heart</em>.",
-    "home.hero.text": "Pixel art adventures with cats, pandas and plenty of hidden secrets, for Xbox, PC and Nintendo Switch. Pick a box from the shelf.",
+    "home.hero.text": "Pixel art adventures with cats, pandas and plenty of hidden secrets. Pick a box from the shelf.",
     "home.shelf.outTitle": "Out now",
     "home.shelf.outHint": "pick a box to open it",
     "home.shelf.soonTitle": "Still being wrapped",
@@ -231,7 +231,7 @@ window.EMBERBOX_I18N = {
 
   pt: {
     "home.hero.title": "Jogos pequenos,<br>feitos com muito <em>carinho</em>.",
-    "home.hero.text": "Aventuras em pixel art com gatos, pandas e muitos segredos escondidos, para Xbox, PC e Nintendo Switch. Escolha uma caixa na prateleira.",
+    "home.hero.text": "Aventuras em pixel art com gatos, pandas e muitos segredos escondidos. Escolha uma caixa na prateleira.",
     "home.shelf.outTitle": "Já disponíveis",
     "home.shelf.outHint": "escolha uma caixa para abrir",
     "home.shelf.soonTitle": "Ainda no embrulho",
@@ -454,7 +454,7 @@ window.EMBERBOX_I18N = {
 
   es: {
     "home.hero.title": "Juegos pequeños,<br>hechos con mucho <em>cariño</em>.",
-    "home.hero.text": "Aventuras en pixel art con gatos, pandas y muchos secretos escondidos, para Xbox, PC y Nintendo Switch. Elige una caja de la estantería.",
+    "home.hero.text": "Aventuras en pixel art con gatos, pandas y muchos secretos escondidos. Elige una caja de la estantería.",
     "home.shelf.outTitle": "Ya disponibles",
     "home.shelf.outHint": "elige una caja para abrirla",
     "home.shelf.soonTitle": "Todavía en el envoltorio",
