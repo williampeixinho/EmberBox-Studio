@@ -7,7 +7,7 @@
 window.EMBERBOX_I18N = {
 
   en: {
-    "home.hero.title": "Small games,<br>packed with <em>heart</em>.",
+    "home.hero.title": "Games made with <em>heart</em>,<br>pixel by pixel.",
     "home.hero.text": "Pixel art adventures with cats, pandas and plenty of hidden secrets. Pick a box from the shelf.",
     "home.shelf.outTitle": "Out now",
     "home.shelf.outHint": "pick a box to open it",
@@ -230,7 +230,7 @@ window.EMBERBOX_I18N = {
   },
 
   pt: {
-    "home.hero.title": "Jogos pequenos,<br>feitos com muito <em>carinho</em>.",
+    "home.hero.title": "Jogos feitos com <em>carinho</em>,<br>pixel por pixel.",
     "home.hero.text": "Aventuras em pixel art com gatos, pandas e muitos segredos escondidos. Escolha uma caixa na prateleira.",
     "home.shelf.outTitle": "Já disponíveis",
     "home.shelf.outHint": "escolha uma caixa para abrir",
@@ -453,7 +453,7 @@ window.EMBERBOX_I18N = {
   },
 
   es: {
-    "home.hero.title": "Juegos pequeños,<br>hechos con mucho <em>cariño</em>.",
+    "home.hero.title": "Juegos hechos con <em>cariño</em>,<br>píxel a píxel.",
     "home.hero.text": "Aventuras en pixel art con gatos, pandas y muchos secretos escondidos. Elige una caja de la estantería.",
     "home.shelf.outTitle": "Ya disponibles",
     "home.shelf.outHint": "elige una caja para abrirla",
