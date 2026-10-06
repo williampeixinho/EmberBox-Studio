@@ -20,12 +20,13 @@
   }
 
   function translate(key, lang) {
-    var dict = window.EMBERBOX_I18N[lang] || {};
+    var all = window.EMBERBOX_I18N || {};
+    var dict = all[lang] || {};
     if (Object.prototype.hasOwnProperty.call(dict, key)) {
       return dict[key];
     }
-    var fallback = window.EMBERBOX_I18N[DEFAULT_LANG] || {};
-    return Object.prototype.hasOwnProperty.call(fallback, key) ? fallback[key] : key;
+    var fallback = all[DEFAULT_LANG] || {};
+    return Object.prototype.hasOwnProperty.call(fallback, key) ? fallback[key] : null;
   }
 
   function applyLang(lang) {
@@ -38,7 +39,9 @@
     var textNodes = document.querySelectorAll("[data-i18n]");
     for (var i = 0; i < textNodes.length; i++) {
       var el = textNodes[i];
-      el.innerHTML = translate(el.getAttribute("data-i18n"), lang);
+      var text = translate(el.getAttribute("data-i18n"), lang);
+      // missing key: keep the English text already in the HTML
+      if (text !== null) el.innerHTML = text;
     }
 
     var attrNodes = document.querySelectorAll("[data-i18n-attr]");
@@ -50,7 +53,8 @@
         var parts = pairs[k].split(":");
         var attrName = parts[0].trim();
         var attrKey = parts[1].trim();
-        attrEl.setAttribute(attrName, translate(attrKey, lang));
+        var value = translate(attrKey, lang);
+        if (value !== null) attrEl.setAttribute(attrName, value);
       }
     }
 
@@ -76,7 +80,12 @@
   };
 
   document.addEventListener("DOMContentLoaded", function () {
-    applyLang(getSavedLang());
+    try {
+      applyLang(getSavedLang());
+    } catch (e) {
+      console.error("i18n failed, showing the page in English:", e);
+    }
+    // always reveal the page, even if translating failed
     document.body.classList.add("lang-ready");
 
     var langButtons = document.querySelectorAll(".lang-switch [data-lang]");

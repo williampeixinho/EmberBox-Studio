@@ -98,6 +98,10 @@ window.EMBERBOX_I18N = {
     "publishing.form.modelQuote": "Custom Quote",
     "publishing.form.submit": "Send Pitch",
     "publishing.form.note": "This opens your email app with everything pre-filled, addressed to contact@emberboxstudio.com — just hit send.",
+    "publishing.form.fallbackTitle": "Your email app didn't open?",
+    "publishing.form.fallbackText": "Copy your pitch and send it to <a href=\"mailto:contact@emberboxstudio.com\">contact@emberboxstudio.com</a> from any email account.",
+    "publishing.form.copy": "Copy Pitch",
+    "publishing.form.copied": "Copied!",
 
     "privacy.meta.title": "Privacy Policy — Ember Box Studio",
     "privacy.meta.desc": "Ember Box Studio Privacy Policy.",
@@ -305,6 +309,10 @@ window.EMBERBOX_I18N = {
     "publishing.form.modelQuote": "Orçamento Personalizado",
     "publishing.form.submit": "Enviar Pitch",
     "publishing.form.note": "Isso abre seu aplicativo de e-mail com tudo já preenchido, endereçado para contact@emberboxstudio.com — é só enviar.",
+    "publishing.form.fallbackTitle": "Seu aplicativo de e-mail não abriu?",
+    "publishing.form.fallbackText": "Copie seu pitch e envie para <a href=\"mailto:contact@emberboxstudio.com\">contact@emberboxstudio.com</a> de qualquer conta de e-mail.",
+    "publishing.form.copy": "Copiar Pitch",
+    "publishing.form.copied": "Copiado!",
 
     "privacy.meta.title": "Política de Privacidade — Ember Box Studio",
     "privacy.meta.desc": "Política de Privacidade da Ember Box Studio.",
@@ -512,6 +520,10 @@ window.EMBERBOX_I18N = {
     "publishing.form.modelQuote": "Presupuesto Personalizado",
     "publishing.form.submit": "Enviar Pitch",
     "publishing.form.note": "Esto abre tu aplicación de correo con todo ya completado, dirigido a contact@emberboxstudio.com — solo tienes que enviarlo.",
+    "publishing.form.fallbackTitle": "¿No se abrió tu aplicación de correo?",
+    "publishing.form.fallbackText": "Copia tu pitch y envíalo a <a href=\"mailto:contact@emberboxstudio.com\">contact@emberboxstudio.com</a> desde cualquier cuenta de correo.",
+    "publishing.form.copy": "Copiar Pitch",
+    "publishing.form.copied": "¡Copiado!",
 
     "privacy.meta.title": "Política de Privacidad — Ember Box Studio",
     "privacy.meta.desc": "Política de Privacidad de Ember Box Studio.",

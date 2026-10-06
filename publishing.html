@@ -134,6 +134,13 @@
 
           <button type="submit" class="btn" data-i18n="publishing.form.submit">Send Pitch</button>
           <p class="form-note" data-i18n="publishing.form.note">This opens your email app with everything pre-filled, addressed to contact@emberboxstudio.com — just hit send.</p>
+
+          <div class="pitch-fallback" id="pitch-fallback" hidden>
+            <p class="pitch-fallback-title" data-i18n="publishing.form.fallbackTitle">Your email app didn't open?</p>
+            <p data-i18n="publishing.form.fallbackText">Copy your pitch and send it to <a href="mailto:contact@emberboxstudio.com">contact@emberboxstudio.com</a> from any email account.</p>
+            <textarea id="pitch-fallback-text" rows="8" readonly aria-label="Pitch text"></textarea>
+            <button type="button" class="btn" id="pitch-copy" data-i18n="publishing.form.copy">Copy Pitch</button>
+          </div>
         </form>
       </div>
 

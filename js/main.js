@@ -39,11 +39,48 @@ document.addEventListener('DOMContentLoaded', function () {
       ];
 
       var subject = 'Game Pitch — ' + (gameName || 'Untitled');
+      var body = bodyLines.join('\n');
       var mailto = 'mailto:contact@emberboxstudio.com'
         + '?subject=' + encodeURIComponent(subject)
-        + '&body=' + encodeURIComponent(bodyLines.join('\n'));
+        + '&body=' + encodeURIComponent(body);
 
-      window.location.href = mailto;
+      // Fallback for visitors without an email app (common on Windows) and for pitches too long
+      // for a mailto link: show the full text ready to copy, so the pitch is never silently lost.
+      var fallback = document.getElementById('pitch-fallback');
+      if (fallback) {
+        document.getElementById('pitch-fallback-text').value = 'Subject: ' + subject + '\n\n' + body;
+        fallback.hidden = false;
+      }
+
+      // Some email clients cut or refuse very long mailto links; the copy box covers those.
+      if (mailto.length <= 2000) {
+        window.location.href = mailto;
+      } else if (fallback) {
+        fallback.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  }
+
+  var copyBtn = document.getElementById('pitch-copy');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function () {
+      var area = document.getElementById('pitch-fallback-text');
+      var done = function () {
+        var lang = document.documentElement.getAttribute('lang') || 'en';
+        var dict = (window.EMBERBOX_I18N && window.EMBERBOX_I18N[lang]) || {};
+        copyBtn.textContent = dict['publishing.form.copied'] || 'Copied!';
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(area.value).then(done, function () {
+          area.select();
+          document.execCommand('copy');
+          done();
+        });
+      } else {
+        area.select();
+        document.execCommand('copy');
+        done();
+      }
     });
   }
 });

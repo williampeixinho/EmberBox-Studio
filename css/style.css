@@ -34,9 +34,16 @@ html {
 
 /* Hidden until i18n.js applies the saved language, to avoid a flash of
    English content on repeat visits with pt/es selected. noscript below
-   guarantees visibility if JS is disabled. */
+   guarantees visibility if JS is disabled, and the animation is a safety
+   net: if a script fails to load or throws, the page still shows (in
+   English) after 1.5s instead of staying blank forever. */
 body {
   visibility: hidden;
+  animation: reveal-fallback 0s linear 1.5s forwards;
+}
+
+@keyframes reveal-fallback {
+  to { visibility: visible; }
 }
 
 body.lang-ready {
@@ -707,6 +714,35 @@ h1, h2, h3, .font-display {
   color: var(--color-text-dim);
   margin-top: -8px;
 }
+
+.pitch-fallback {
+  border: 3px dashed var(--color-primary);
+  background: var(--color-bg-alt);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pitch-fallback[hidden] { display: none; }
+
+.pitch-fallback-title {
+  color: var(--color-accent);
+  font-size: 20px;
+}
+
+.pitch-fallback textarea {
+  width: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 2px solid var(--color-border);
+  font-family: var(--font-body);
+  font-size: 16px;
+  padding: 8px;
+  resize: vertical;
+}
+
+.pitch-fallback .btn { align-self: flex-start; }
 
 /* ---------- Privacy / legal page ---------- */
 
