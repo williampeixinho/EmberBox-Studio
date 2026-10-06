@@ -6,6 +6,10 @@
   <title data-i18n="home.meta.title">Ember Box Studio — 2D Pixel Art Games</title>
   <meta name="description" data-i18n-attr="content:home.meta.desc" content="Ember Box Studio creates charming 2D pixel art games — from Mel's adventures to hidden-cat hunts and beyond.">
   <link rel="icon" href="images/emberbox.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="preload" href="fonts/BoldPixels.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
   <noscript><style>body{visibility:visible !important;}</style></noscript>
 </head>
@@ -13,159 +17,131 @@
 
   <header class="site-header">
     <nav class="nav">
-      <a class="nav-logo" href="index.html">
+      <a class="brand" href="index.html">
         <img src="images/emberbox.png" alt="Ember Box Studio logo" data-i18n-attr="alt:common.logoAlt">
-        EMBER BOX STUDIO
+        <span>Ember Box Studio</span>
       </a>
-      <div class="nav-right">
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-i18n-attr="aria-label:common.openMenu">&#9776;</button>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html#games" data-i18n="nav.games">Games</a></li>
+          <li><a href="publishing.html" data-i18n="nav.publishing">Publishing</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        </ul>
         <div class="lang-switch">
           <button type="button" data-lang="en">EN</button>
           <button type="button" data-lang="pt">PT</button>
           <button type="button" data-lang="es">ES</button>
         </div>
-        <button class="nav-toggle" aria-label="Open menu" data-i18n-attr="aria-label:common.openMenu">☰</button>
-        <ul class="nav-links">
-          <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
-          <li><a href="index.html#games" data-i18n="nav.games">Games</a></li>
-          <li><a href="publishing.html" data-i18n="nav.publishing">Publishing</a></li>
-          <li><a href="about.html" data-i18n="nav.about">About</a></li>
-          <li><a href="privacy.html" data-i18n="nav.privacy">Privacy</a></li>
-        </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="hero container">
-      <h1 data-i18n="home.heroTitle">EMBER BOX STUDIO</h1>
-      <p data-i18n="home.heroSubtitle">We create charming 2D pixel art games starring our cat mascot, Mel. Explore our worlds below.</p>
+    <section class="hero wrap">
+      <div class="hero-text">
+        <h1 data-i18n="home.hero.title">Small games,<br>packed with <em>heart</em>,<br>from São Paulo.</h1>
+        <p data-i18n="home.hero.text">Pixel art adventures with cats, pandas and plenty of hidden secrets, for Xbox and PC. Pick a box from the shelf.</p>
+      </div>
+      <div class="hero-box">
+        <img class="hero-logo" src="images/emberbox.png" alt="Ember Box Studio logo" data-i18n-attr="alt:common.logoAlt">
+        <img class="hero-mel" src="images/mel/mel-happy.webp" alt="Mel" width="145" height="300">
+      </div>
     </section>
 
-    <section class="section container" id="games">
-      <h2 class="section-title" data-i18n="home.gamesTitle">Our Games</h2>
+    <section class="wrap" id="games">
+      <div class="shelf-head">
+        <h2 data-i18n="home.shelf.outTitle">Out now</h2>
+        <span data-i18n="home.shelf.outHint">pick a box to open it</span>
+      </div>
+      <div class="shelf">
+        <div class="slot">
+          <a class="box" href="games/mel-the-cat.html" aria-label="Mel the Cat" title="A 2D pixel art platformer where Mel the cat explores levels full of secrets and challenges." data-i18n-attr="title:home.melTheCat.desc"><span class="box-spine" style="--spine:#2f6b3a" aria-hidden="true"><b>Mel the Cat</b></span><span class="box-front"><img src="images/games/MelTheCatMainArt.webp" alt="" loading="lazy" decoding="async"></span></a>
+          <p class="price-tag"><b>Mel the Cat</b> <span data-i18n="tag.platformer">Platformer</span> · Xbox / PC</p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/mel-the-space-cat.html" aria-label="Mel the Space Cat" title="Mel embarks on a space adventure, jumping between planets and ships in search of home." data-i18n-attr="title:home.melTheSpaceCat.desc"><span class="box-spine" style="--spine:#2b2a6b" aria-hidden="true"><b>Mel the Space Cat</b></span><span class="box-front"><img src="images/games/MelSpaceMainArt.webp" alt="" loading="lazy" decoding="async"></span></a>
+          <p class="price-tag"><b>Mel the Space Cat</b> <span data-i18n="tag.platformer">Platformer</span> · Xbox / PC</p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/mel-the-pyramid-cat.html" aria-label="Mel the Pyramid Cat" title="A journey through ancient pyramids and temples, full of traps and hidden treasures." data-i18n-attr="title:home.melThePyramidCat.desc"><span class="box-spine" style="--spine:#8a5a2b" aria-hidden="true"><b>Mel the Pyramid Cat</b></span><span class="box-front"><img src="images/games/MelPyramidMainArt.webp" alt="" loading="lazy" decoding="async"></span></a>
+          <p class="price-tag"><b>Mel the Pyramid Cat</b> <span data-i18n="tag.platformer">Platformer</span> · Xbox / PC</p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/find-the-cats.html" aria-label="Find the Cats" title="A casual game about finding hidden kittens in detailed pixel art scenes." data-i18n-attr="title:home.findTheCats.desc"><span class="box-spine" style="--spine:#b8552c" aria-hidden="true"><b>Find the Cats</b></span><span class="box-front"><img src="images/games/FindTheCatsMainArts.webp" alt="" loading="lazy" decoding="async"></span></a>
+          <p class="price-tag"><b>Find the Cats</b> <span data-i18n="tag.hiddenObject">Hidden object</span> · Xbox / PC</p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/find-the-cats-2.html" aria-label="Find the Cats 2" title="The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels." data-i18n-attr="title:home.findTheCats2.desc"><span class="box-spine" style="--spine:#3a8fd6" aria-hidden="true"><b>Find the Cats 2</b></span><span class="box-front"><img src="images/games/FindTheCats2MainArt.webp" alt="" loading="lazy" decoding="async"></span></a>
+          <p class="price-tag"><b>Find the Cats 2</b> <span data-i18n="tag.hiddenObject">Hidden object</span> · Xbox / PC</p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/panda-shards-of-aurora.html" aria-label="Panda: Shards of Aurora" title="A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder." data-i18n-attr="title:home.pandaShardsOfAurora.desc"><span class="box-spine" style="--spine:#2c4a6e" aria-hidden="true"><b>Panda: Shards of Aurora</b></span><span class="box-front"><img src="images/games/PandaMainArt.webp" alt="" loading="lazy" decoding="async"></span></a>
+          <p class="price-tag"><b>Panda: Shards of Aurora</b> <span data-i18n="tag.platformer">Platformer</span> · Xbox / PC</p>
+        </div>
+      </div>
 
-      <div class="games-grid">
+      <div class="shelf-head">
+        <h2 data-i18n="home.shelf.soonTitle">Still being wrapped</h2>
+        <span data-i18n="home.shelf.soonHint">coming soon</span>
+      </div>
+      <div class="shelf">
+        <div class="slot">
+          <a class="box" href="games/mels-jigsaw-adventures.html" aria-label="Mel's Jigsaw Adventures" title="A cozy jigsaw puzzle game with beautiful pixel art worlds, hosted by Mel the cat." data-i18n-attr="title:home.melsJigsaw.desc"><span class="box-spine" style="--spine:#d9683c" aria-hidden="true"><b>Mel's Jigsaw Adventures</b></span><span class="box-front wrapped"><img class="peek" src="images/games/MelsJigsawMainArt.webp" alt="" loading="lazy" decoding="async"><span class="stamp" data-i18n="common.comingSoonBadge">Coming Soon</span></span></a>
+          <p class="price-tag"><b>Mel's Jigsaw Adventures</b> <span data-i18n="tag.jigsaw">Jigsaw puzzle</span></p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/panda-curse-of-the-pumpkin.html" aria-label="Panda: Curse of the Pumpkin" title="The panda's next adventure: breaking a Halloween curse before the harvest moon fades." data-i18n-attr="title:home.pandaCurseOfThePumpkin.desc"><span class="box-spine" style="--spine:#4a2a5a" aria-hidden="true"><b>Panda: Curse of the Pumpkin</b></span><span class="box-front wrapped"><img class="peek" src="images/screenshots/pandahalloweenss1.png" alt="" loading="lazy" decoding="async"><span class="stamp" data-i18n="common.comingSoonBadge">Coming Soon</span></span></a>
+          <p class="price-tag"><b>Panda: Curse of the Pumpkin</b> <span data-i18n="tag.halloween">Halloween</span></p>
+        </div>
+        <div class="slot">
+          <a class="box" href="games/find-the-cats-3-halloween-hunt.html" aria-label="Find the Cats 3: Halloween Hunt" title="A spooky new hunt for hidden cats in costumes, arriving this Halloween." data-i18n-attr="title:home.findTheCats3.desc"><span class="box-spine" style="--spine:#2a1a10" aria-hidden="true"><b>Find the Cats 3: Halloween Hunt</b></span><span class="box-front wrapped"><span class="stamp" data-i18n="common.comingSoonBadge">Coming Soon</span></span></a>
+          <p class="price-tag"><b>Find the Cats 3: Halloween Hunt</b> <span data-i18n="tag.halloween">Halloween</span></p>
+        </div>
+      </div>
+    </section>
 
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/MelTheCatMainArt.webp" alt="Mel the Cat" loading="lazy" decoding="async"></div>
-          <div class="game-card-body">
-            <h3>Mel the Cat</h3>
-            <p data-i18n="home.melTheCat.desc">A 2D pixel art platformer where Mel the cat explores levels full of secrets and challenges.</p>
-            <a class="btn" href="games/mel-the-cat.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/MelSpaceMainArt.webp" alt="Mel the Space Cat" loading="lazy" decoding="async"></div>
-          <div class="game-card-body">
-            <h3>Mel the Space Cat</h3>
-            <p data-i18n="home.melTheSpaceCat.desc">Mel embarks on a space adventure, jumping between planets and ships in search of home.</p>
-            <a class="btn" href="games/mel-the-space-cat.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/MelPyramidMainArt.webp" alt="Mel the Pyramid Cat" loading="lazy" decoding="async"></div>
-          <div class="game-card-body">
-            <h3>Mel the Pyramid Cat</h3>
-            <p data-i18n="home.melThePyramidCat.desc">A journey through ancient pyramids and temples, full of traps and hidden treasures.</p>
-            <a class="btn" href="games/mel-the-pyramid-cat.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/FindTheCatsMainArts.webp" alt="Find the Cats" loading="lazy" decoding="async"></div>
-          <div class="game-card-body">
-            <h3>Find the Cats</h3>
-            <p data-i18n="home.findTheCats.desc">A casual game about finding hidden kittens in detailed pixel art scenes.</p>
-            <a class="btn" href="games/find-the-cats.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/FindTheCats2MainArt.webp" alt="Find the Cats 2" loading="lazy" decoding="async"></div>
-          <div class="game-card-body">
-            <h3>Find the Cats 2</h3>
-            <p data-i18n="home.findTheCats2.desc">The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels.</p>
-            <a class="btn" href="games/find-the-cats-2.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb"><img src="images/games/PandaMainArt.webp" alt="Panda: Shards of Aurora" loading="lazy" decoding="async"></div>
-          <div class="game-card-body">
-            <h3>Panda: Shards of Aurora</h3>
-            <p data-i18n="home.pandaShardsOfAurora.desc">A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder.</p>
-            <a class="btn" href="games/panda-shards-of-aurora.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb placeholder" style="--pc1:#5c3416; --pc2:#3a2210;">
-            <span class="coming-soon-badge" data-i18n="common.comingSoonBadge">Coming Soon</span>
-          </div>
-          <div class="game-card-body">
-            <h3>Find the Cats 3: Halloween Hunt</h3>
-            <p data-i18n="home.findTheCats3.desc">A spooky new hunt for hidden cats in costumes, arriving this Halloween.</p>
-            <a class="btn" href="games/find-the-cats-3-halloween-hunt.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb placeholder" style="--pc1:#5c3416; --pc2:#3a2210;">
-            <span class="coming-soon-badge" data-i18n="common.comingSoonBadge">Coming Soon</span>
-          </div>
-          <div class="game-card-body">
-            <h3>Panda: Curse of the Pumpkin</h3>
-            <p data-i18n="home.pandaCurseOfThePumpkin.desc">The panda's next adventure: breaking a Halloween curse before the harvest moon fades.</p>
-            <a class="btn" href="games/panda-curse-of-the-pumpkin.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
-        <article class="game-card">
-          <div class="game-card-thumb">
-            <img src="images/games/MelsJigsawMainArt.webp" alt="Mel's Jigsaw Adventures" loading="lazy" decoding="async">
-            <span class="coming-soon-badge" data-i18n="common.comingSoonBadge">Coming Soon</span>
-          </div>
-          <div class="game-card-body">
-            <h3>Mel's Jigsaw Adventures</h3>
-            <p data-i18n="home.melsJigsaw.desc">A cozy jigsaw puzzle game with beautiful pixel art worlds, hosted by Mel the cat.</p>
-            <a class="btn" href="games/mels-jigsaw-adventures.html" data-i18n="common.viewGame">View Game</a>
-          </div>
-        </article>
-
+    <section class="wrap">
+      <div class="pitch-card">
+        <div>
+          <h2 data-i18n="home.pitch.title">Made a game? Let's put it in a box.</h2>
+          <p data-i18n="home.pitch.text">We help independent developers bring their games to Xbox and PC — and to Nintendo Switch and PlayStation through partners.</p>
+        </div>
+        <a class="btn" href="publishing.html" data-i18n="home.pitch.cta">Pitch your game</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <p class="footer-brand-name">EMBER BOX STUDIO</p>
-          <a class="footer-brand-email" href="mailto:contact@emberboxstudio.com">contact@emberboxstudio.com</a>
-          <p class="footer-brand-detail" data-i18n="common.footerAddress">Rua Vapabussu, 66 — São Paulo, Brazil</p>
-          <p class="footer-brand-detail" data-i18n="common.footerCnpj">CNPJ: 68.802.904/0001-74</p>
-          <p class="footer-brand-detail"><a href="tel:+5511921353032" data-i18n="common.footerPhone">Phone: +55 11 92135-3032</a></p>
-        </div>
-        <div class="footer-connect">
-          <p class="footer-connect-title" data-i18n="common.connectTitle">Connect with us</p>
-          <div class="footer-social">
+    <img class="footer-mel" src="images/mel/mel-nap.webp" alt="" width="105" height="220">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-brand-name">Ember Box Studio</p>
+        <a href="mailto:contact@emberboxstudio.com">contact@emberboxstudio.com</a>
+        <p data-i18n="common.footerAddress">Rua Vapabussu, 66 — São Paulo, Brazil</p>
+        <p data-i18n="common.footerCnpj">CNPJ: 68.802.904/0001-74</p>
+        <p><a href="tel:+5511921353032" data-i18n="common.footerPhone">Phone: +55 11 92135-3032</a></p>
+      </div>
+      <div class="footer-connect">
+        <p class="footer-title" data-i18n="common.connectTitle">Connect with us</p>
+        <div class="footer-social">
             <a class="social-link email" href="mailto:contact@emberboxstudio.com" aria-label="Email" data-i18n-attr="aria-label:common.emailLabel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg></a>
             <a class="social-link discord" href="https://discord.gg/CGthHXKh3f" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 5.7c-1.4-.7-3-1.1-4.6-1.4-.2.4-.4.8-.6 1.2-1.7-.3-3.4-.3-5.1 0-.2-.4-.4-.8-.6-1.2-1.6.3-3.2.7-4.6 1.4C1 9.6.3 13.4.6 17.1c1.8 1.3 3.5 2.1 5.2 2.7.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.7-.8.1-.1.3-.2.4-.3 3.3 1.5 6.9 1.5 10.2 0 .1.1.3.2.4.3-.5.3-1.1.6-1.7.8.3.7.7 1.3 1.1 1.9 1.7-.5 3.5-1.4 5.2-2.7.4-4.3-1-8-4.4-11.4zM8.7 14.7c-.9 0-1.7-.9-1.7-1.9s.7-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9zm6.6 0c-.9 0-1.7-.9-1.7-1.9s.7-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9z"/></svg></a>
             <a class="social-link youtube" href="https://www.youtube.com/@emberboxstudio" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.7 3.5 12 3.5 12 3.5s-7.7 0-9.4.6A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.7.6 9.4.6 9.4.6s7.7 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 16 24 12 24 12s0-4-.5-5.8zM9.5 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></a>
             <a class="social-link x" href="https://x.com/emberboxstudio" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23.3 22h-6.6l-5.2-6.8L5.5 22H2.3l7.7-8.8L1 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.8L7.4 3.9H5.5L17.7 20z"/></svg></a>
             <a class="social-link instagram" href="https://www.instagram.com/emberboxstudio/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
-          </div>
         </div>
       </div>
-      <div class="footer-links">
+      <nav class="footer-links">
         <a href="index.html" data-i18n="nav.home">Home</a>
         <a href="publishing.html" data-i18n="nav.publishing">Publishing</a>
         <a href="about.html" data-i18n="nav.about">About</a>
         <a href="privacy.html" data-i18n="nav.privacy">Privacy</a>
-      </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
       <p data-i18n="common.footerRights">&copy; 2026 Ember Box Studio. All rights reserved.</p>
+      <p class="font-credit" data-i18n="common.fontCredit">Pixel font: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">BoldPixels by YukiPixels</a> (CC BY-SA 4.0)</p>
     </div>
   </footer>
 

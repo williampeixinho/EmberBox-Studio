@@ -6,6 +6,10 @@
   <title>Panda: Curse of the Pumpkin — Ember Box Studio</title>
   <meta name="description" data-i18n-attr="content:game.meta.pandaCurseOfThePumpkin.desc" content="Panda: Curse of the Pumpkin: a 2D pixel art Halloween adventure by Ember Box Studio.">
   <link rel="icon" href="../images/emberbox.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="preload" href="../fonts/BoldPixels.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../css/style.css">
   <noscript><style>body{visibility:visible !important;}</style></noscript>
 </head>
@@ -13,100 +17,105 @@
 
   <header class="site-header">
     <nav class="nav">
-      <a class="nav-logo" href="../index.html">
+      <a class="brand" href="../index.html">
         <img src="../images/emberbox.png" alt="Ember Box Studio logo" data-i18n-attr="alt:common.logoAlt">
-        EMBER BOX STUDIO
+        <span>Ember Box Studio</span>
       </a>
-      <div class="nav-right">
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-i18n-attr="aria-label:common.openMenu">&#9776;</button>
+      <div class="nav-links">
+        <ul>
+          <li><a href="../index.html#games" class="active" aria-current="page" data-i18n="nav.games">Games</a></li>
+          <li><a href="../publishing.html" data-i18n="nav.publishing">Publishing</a></li>
+          <li><a href="../about.html" data-i18n="nav.about">About</a></li>
+        </ul>
         <div class="lang-switch">
           <button type="button" data-lang="en">EN</button>
           <button type="button" data-lang="pt">PT</button>
           <button type="button" data-lang="es">ES</button>
         </div>
-        <button class="nav-toggle" aria-label="Open menu" data-i18n-attr="aria-label:common.openMenu">☰</button>
-        <ul class="nav-links">
-          <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
-          <li><a href="../index.html#games" data-i18n="nav.games">Games</a></li>
-          <li><a href="../publishing.html" data-i18n="nav.publishing">Publishing</a></li>
-          <li><a href="../about.html" data-i18n="nav.about">About</a></li>
-          <li><a href="../privacy.html" data-i18n="nav.privacy">Privacy</a></li>
-        </ul>
       </div>
     </nav>
   </header>
 
-  <main class="container">
+  <main class="wrap game-page">
+    <a class="back-link" href="../index.html#games" data-i18n="common.backToShelf">&larr; Back to the shelf</a>
 
-    <section class="game-hero">
-      <div>
-        <span class="coming-soon-badge" data-i18n="common.comingSoonBadge">Coming Soon</span>
-        <p class="game-tagline" data-i18n="game.pandaCurseOfThePumpkin.tagline">2D pixel art Halloween adventure</p>
+    <section class="game-front">
+      <div class="game-front-box">
+        <div class="box box-big"><span class="box-spine" style="--spine:#4a2a5a" aria-hidden="true"><b>Panda: Curse of the Pumpkin</b></span><span class="box-front wrapped"><img class="peek" src="../images/screenshots/pandahalloweenss1.png" alt=""><span class="stamp" data-i18n="common.comingSoonBadge">Coming Soon</span></span></div>
+      </div>
+      <div class="game-front-text">
+        <span class="soon-badge" data-i18n="common.comingSoonBadge">Coming Soon</span>
+        <p class="tagline" data-i18n="game.pandaCurseOfThePumpkin.tagline">2D pixel art Halloween adventure</p>
         <h1>Panda: Curse of the Pumpkin</h1>
-        <p class="game-description" data-i18n="game.pandaCurseOfThePumpkin.description">
-          Panda: Curse of the Pumpkin brings back our young panda hero, this time facing a Halloween curse that
-          has twisted his forest friends into monstrous creatures of the night. Guided once again by the wise
-          elder panda, he must defeat them one by one to break the curse before the harvest moon fades.
-        </p>
-      </div>
-
-      <div class="game-hero-art placeholder" style="--pc1:#5c3416; --pc2:#3a2210;" data-i18n="common.comingSoonArt">
-        [main art coming soon]
+        <p class="description" data-i18n="game.pandaCurseOfThePumpkin.description">Panda: Curse of the Pumpkin brings back our young panda hero, this time facing a Halloween curse that has twisted his forest friends into monstrous creatures of the night. Guided once again by the wise elder panda, he must defeat them one by one to break the curse before the harvest moon fades.</p>
+        
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="section-title" data-i18n="common.screenshots">Screenshots</h2>
-      <div class="screenshot-gallery">
-        <img src="../images/screenshots/pandahalloweenss1.png" alt="Panda: Curse of the Pumpkin screenshot 1" loading="lazy" decoding="async">
-        <img src="../images/screenshots/pandahalloweenss2.png" alt="Panda: Curse of the Pumpkin screenshot 2" loading="lazy" decoding="async">
-        <img src="../images/screenshots/pandahalloweenss3.png" alt="Panda: Curse of the Pumpkin screenshot 3" loading="lazy" decoding="async">
-        <img src="../images/screenshots/pandahalloweenss4.png" alt="Panda: Curse of the Pumpkin screenshot 4" loading="lazy" decoding="async">
-        <img src="../images/screenshots/pandahalloweenss5.png" alt="Panda: Curse of the Pumpkin screenshot 5" loading="lazy" decoding="async">
+    <section class="back-cover">
+      <div class="back-cover-head">
+        <span data-i18n="common.backCover">Back of the box</span>
+        <b>Panda: Curse of the Pumpkin</b>
+      </div>
+      <div class="back-cover-body">
+        <div class="back-cover-media">
+          <div class="media-block">
+            <h2 data-i18n="common.screenshots">Screenshots</h2>
+            <div class="screenshot-gallery">
+              <img src="../images/screenshots/pandahalloweenss1.png" alt="Panda: Curse of the Pumpkin screenshot 1" loading="lazy" decoding="async">
+              <img src="../images/screenshots/pandahalloweenss2.png" alt="Panda: Curse of the Pumpkin screenshot 2" loading="lazy" decoding="async">
+              <img src="../images/screenshots/pandahalloweenss3.png" alt="Panda: Curse of the Pumpkin screenshot 3" loading="lazy" decoding="async">
+              <img src="../images/screenshots/pandahalloweenss4.png" alt="Panda: Curse of the Pumpkin screenshot 4" loading="lazy" decoding="async">
+              <img src="../images/screenshots/pandahalloweenss5.png" alt="Panda: Curse of the Pumpkin screenshot 5" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+        <aside class="back-cover-side">
+          <h2 data-i18n="common.highlights">Highlights</h2>
+          <ul class="features">
+              <li data-i18n="game.pandaCurseOfThePumpkin.feature1">A spooky sequel to Panda: Shards of Aurora</li>
+              <li data-i18n="game.pandaCurseOfThePumpkin.feature2">Guided once more by the wise elder panda</li>
+              <li data-i18n="game.pandaCurseOfThePumpkin.feature3">Defeat forest friends transformed into Halloween monsters</li>
+              <li data-i18n="game.pandaCurseOfThePumpkin.feature4">Break the curse before the harvest moon fades</li>
+          </ul>
+
+          <div class="barcode"><i aria-hidden="true"></i><small>Ember Box Studio · São Paulo, BR</small></div>
+        </aside>
       </div>
     </section>
-
-    <section class="section">
-      <h2 class="section-title" data-i18n="common.highlights">Highlights</h2>
-      <ul class="feature-list">
-        <li data-i18n="game.pandaCurseOfThePumpkin.feature1">A spooky sequel to Panda: Shards of Aurora</li>
-        <li data-i18n="game.pandaCurseOfThePumpkin.feature2">Guided once more by the wise elder panda</li>
-        <li data-i18n="game.pandaCurseOfThePumpkin.feature3">Defeat forest friends transformed into Halloween monsters</li>
-        <li data-i18n="game.pandaCurseOfThePumpkin.feature4">Break the curse before the harvest moon fades</li>
-      </ul>
-    </section>
-
-    <p class="text-center mt-32"><a href="../index.html" data-i18n="common.backToGames">&larr; Back to all games</a></p>
-
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <p class="footer-brand-name">EMBER BOX STUDIO</p>
-          <a class="footer-brand-email" href="mailto:contact@emberboxstudio.com">contact@emberboxstudio.com</a>
-          <p class="footer-brand-detail" data-i18n="common.footerAddress">Rua Vapabussu, 66 — São Paulo, Brazil</p>
-          <p class="footer-brand-detail" data-i18n="common.footerCnpj">CNPJ: 68.802.904/0001-74</p>
-          <p class="footer-brand-detail"><a href="tel:+5511921353032" data-i18n="common.footerPhone">Phone: +55 11 92135-3032</a></p>
-        </div>
-        <div class="footer-connect">
-          <p class="footer-connect-title" data-i18n="common.connectTitle">Connect with us</p>
-          <div class="footer-social">
+    <img class="footer-mel" src="../images/mel/mel-nap.webp" alt="" width="105" height="220">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-brand-name">Ember Box Studio</p>
+        <a href="mailto:contact@emberboxstudio.com">contact@emberboxstudio.com</a>
+        <p data-i18n="common.footerAddress">Rua Vapabussu, 66 — São Paulo, Brazil</p>
+        <p data-i18n="common.footerCnpj">CNPJ: 68.802.904/0001-74</p>
+        <p><a href="tel:+5511921353032" data-i18n="common.footerPhone">Phone: +55 11 92135-3032</a></p>
+      </div>
+      <div class="footer-connect">
+        <p class="footer-title" data-i18n="common.connectTitle">Connect with us</p>
+        <div class="footer-social">
             <a class="social-link email" href="mailto:contact@emberboxstudio.com" aria-label="Email" data-i18n-attr="aria-label:common.emailLabel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg></a>
             <a class="social-link discord" href="https://discord.gg/CGthHXKh3f" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 5.7c-1.4-.7-3-1.1-4.6-1.4-.2.4-.4.8-.6 1.2-1.7-.3-3.4-.3-5.1 0-.2-.4-.4-.8-.6-1.2-1.6.3-3.2.7-4.6 1.4C1 9.6.3 13.4.6 17.1c1.8 1.3 3.5 2.1 5.2 2.7.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.7-.8.1-.1.3-.2.4-.3 3.3 1.5 6.9 1.5 10.2 0 .1.1.3.2.4.3-.5.3-1.1.6-1.7.8.3.7.7 1.3 1.1 1.9 1.7-.5 3.5-1.4 5.2-2.7.4-4.3-1-8-4.4-11.4zM8.7 14.7c-.9 0-1.7-.9-1.7-1.9s.7-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9zm6.6 0c-.9 0-1.7-.9-1.7-1.9s.7-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9z"/></svg></a>
             <a class="social-link youtube" href="https://www.youtube.com/@emberboxstudio" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.7 3.5 12 3.5 12 3.5s-7.7 0-9.4.6A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.7.6 9.4.6 9.4.6s7.7 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 16 24 12 24 12s0-4-.5-5.8zM9.5 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></a>
             <a class="social-link x" href="https://x.com/emberboxstudio" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23.3 22h-6.6l-5.2-6.8L5.5 22H2.3l7.7-8.8L1 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.8L7.4 3.9H5.5L17.7 20z"/></svg></a>
             <a class="social-link instagram" href="https://www.instagram.com/emberboxstudio/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
-          </div>
         </div>
       </div>
-      <div class="footer-links">
+      <nav class="footer-links">
         <a href="../index.html" data-i18n="nav.home">Home</a>
         <a href="../publishing.html" data-i18n="nav.publishing">Publishing</a>
         <a href="../about.html" data-i18n="nav.about">About</a>
         <a href="../privacy.html" data-i18n="nav.privacy">Privacy</a>
-      </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
       <p data-i18n="common.footerRights">&copy; 2026 Ember Box Studio. All rights reserved.</p>
+      <p class="font-credit" data-i18n="common.fontCredit">Pixel font: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">BoldPixels by YukiPixels</a> (CC BY-SA 4.0)</p>
     </div>
   </footer>
 

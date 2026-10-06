@@ -9,21 +9,38 @@ em outras pastas.
 ## Estrutura
 
 ```
-├── index.html                  # Home — hero + cards dos jogos
+├── index.html                  # Home — hero + prateleiras com uma caixa por jogo
 ├── about.html                  # Sobre o estúdio
 ├── publishing.html             # Publicação de jogos de parceiros + formulário de pitch
 ├── privacy.html                # Política de privacidade
-├── games/                      # Uma página por jogo
-├── css/style.css               # Estilo (fontes "Press Start 2P" + "VT323")
+├── games/                      # Uma página por jogo ("verso da caixa")
+├── css/style.css               # Tema "A Caixa" (fontes BoldPixels + Atkinson Hyperlegible)
+├── fonts/                      # BoldPixels (woff2 + ttf) e a licença dela
 ├── js/
 │   ├── translations.js         # Dicionário de textos em en / pt / es
 │   ├── i18n.js                 # Aplica o idioma salvo e liga o seletor EN/PT/ES
 │   └── main.js                 # Menu mobile, formulário de pitch, lightbox dos screenshots
 ├── images/
-│   ├── games/                  # Artes de capa (cards da home + topo de cada página de jogo)
+│   ├── games/                  # Artes de capa (frente das caixas)
+│   ├── mel/                    # Sprites da Mel (hero da home e rodapé)
 │   └── screenshots/            # Screenshots dos jogos
 └── videos/                     # Trailers hospedados no próprio site (ex.: Mel's Jigsaw)
 ```
+
+## Design: "A Caixa"
+
+- **Home:** cada jogo é uma caixa numa prateleira (`.shelf` > `.slot` > `a.box`). A caixa tem a
+  frente (`.box-front`, com a arte de capa) e a lombada (`.box-spine`, cor em `style="--spine:#..."`).
+  Embaixo fica a etiqueta (`.price-tag`) com o nome e o gênero.
+- **Em breve:** a frente vira papel pardo com barbante — `.box-front.wrapped`, com uma "janelinha"
+  (`img.peek`, opcional) e o carimbo `.stamp`.
+- **Página do jogo:** em cima, a caixa grande + título, descrição e botões de loja; embaixo, o
+  "verso da caixa" (`.back-cover`) com trailer, screenshots, destaques e plataformas.
+- **Novo jogo:** copie a página de um jogo parecido em `games/`, troque textos/imagens/links, e
+  adicione um `.slot` na prateleira certa do `index.html` (copie um existente). Quando um jogo
+  "em breve" lançar: troque a frente embrulhada pela arte e adicione o bloco `.store`.
+- **Fonte:** a BoldPixels é CC BY-SA 4.0 e exige crédito — **mantenha a linha "Pixel font:
+  BoldPixels by YukiPixels" no rodapé** de todas as páginas.
 
 ## Como funciona o sistema de idiomas (i18n)
 
