@@ -22,7 +22,6 @@ em outras pastas.
 │   └── main.js                 # Menu mobile, formulário de pitch, lightbox dos screenshots
 ├── images/
 │   ├── games/                  # Artes de capa (frente das caixas)
-│   ├── mel/                    # Sprites da Mel (hero da home e rodapé)
 │   └── screenshots/            # Screenshots dos jogos
 └── videos/                     # Trailers hospedados no próprio site (ex.: Mel's Jigsaw)
 ```
