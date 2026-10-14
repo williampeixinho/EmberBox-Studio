@@ -259,8 +259,20 @@ h1, h2, h3, .btn { font-family: var(--font-pixel); font-weight: normal; letter-s
 
 .price-tag b { font-family: var(--font-pixel); font-weight: normal; display: block; font-size: 15px; }
 
+/* empty slots that carry the plank to the end of a row that isn't full:
+   .f3 is needed with 3 columns, .f2 with 2 columns, none with 1 */
+.slot-fill { display: none; }
+
+@media (min-width: 901px) {
+  .slot-fill.f3 { display: flex; }
+}
+
 @media (max-width: 900px) {
   .shelf { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 900px) and (min-width: 561px) {
+  .slot-fill.f2 { display: flex; }
 }
 
 @media (max-width: 560px) {

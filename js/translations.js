@@ -7,6 +7,16 @@
 window.EMBERBOX_I18N = {
 
   en: {
+    "home.lilyTheCapybara.desc": "A little capybara sets out to become a real predator, and finds a very different kind of victory.",
+    "game.meta.lilyTheCapybara.desc": "Lily the Capybara: a 2D pixel art platformer by Ember Box Studio.",
+    "game.lilyTheCapybara.tagline": "2D pixel art platformer",
+    "game.lilyTheCapybara.description": "Lily is a small capybara who is tired of being seen as a docile, friendly little animal. Determined to become a real predator, she leaves her home by the river to hunt the great jaguar, running, double jumping and dashing through 35 handcrafted levels in four biomes: the Forest, the Stone City, the Jungle and, on the way back home, the Meadow. But the jaguar cannot be beaten by force...",
+    "game.lilyTheCapybara.feature1": "35 handcrafted levels across the Forest, the Stone City, the Jungle and the Meadow",
+    "game.lilyTheCapybara.feature2": "Run, double jump, dash and stomp frogs, snakes, bats, bees and banana-throwing monkeys",
+    "game.lilyTheCapybara.feature3": "A bamboo blowgun that shoots beans, for enemies out of reach and switches only hit from afar",
+    "game.lilyTheCapybara.feature4": "Ziplines, springs, crumbling platforms, spear traps and hidden mystic butterflies",
+    "game.lilyTheCapybara.feature5": "A boss you cannot defeat: dodge the great jaguar and pet it until it calms down",
+    "game.lilyTheCapybara.feature6": "Pink butterflies buy outfits, beans and mangoes in the shop. In English, Portuguese, Spanish, French and German",
     "home.hero.title": "Games made with <em>heart</em>,<br>pixel by pixel.",
     "home.hero.text": "Pixel art adventures with cats, pandas and plenty of hidden secrets. Pick a box from the shelf.",
     "home.shelf.outTitle": "Out now",
@@ -230,6 +240,16 @@ window.EMBERBOX_I18N = {
   },
 
   pt: {
+    "home.lilyTheCapybara.desc": "Uma capivarinha sai de casa para virar uma predadora de verdade e encontra um tipo bem diferente de vitória.",
+    "game.meta.lilyTheCapybara.desc": "Lily the Capybara: um jogo de plataforma em pixel art 2D da Ember Box Studio.",
+    "game.lilyTheCapybara.tagline": "Plataforma em pixel art 2D",
+    "game.lilyTheCapybara.description": "Lily é uma capivarinha cansada de ser vista como um bichinho dócil e simpático. Decidida a virar uma predadora de verdade, ela sai de casa, na beira do rio, para caçar a grande onça, correndo, dando pulo duplo e dash por 35 fases feitas à mão em quatro biomas: a Floresta, a Cidade de Pedra, a Selva e, no caminho de volta para casa, o Campo. Mas a onça não se vence na força...",
+    "game.lilyTheCapybara.feature1": "35 fases feitas à mão na Floresta, na Cidade de Pedra, na Selva e no Campo",
+    "game.lilyTheCapybara.feature2": "Corra, dê pulo duplo, dash e pise em sapos, cobras, morcegos, abelhas e macacos que jogam banana",
+    "game.lilyTheCapybara.feature3": "Uma zarabatana de bambu que atira feijões, para inimigos fora de alcance e botões que só se acertam de longe",
+    "game.lilyTheCapybara.feature4": "Tirolesas, molas, plataformas que desabam, armadilhas de lança e borboletas místicas escondidas",
+    "game.lilyTheCapybara.feature5": "Um chefe que não se derrota: desvie da grande onça e faça carinho até ela se acalmar",
+    "game.lilyTheCapybara.feature6": "Borboletas rosas compram roupas, feijões e mangas na loja. Em inglês, português, espanhol, francês e alemão",
     "home.hero.title": "Jogos feitos com <em>carinho</em>,<br>pixel por pixel.",
     "home.hero.text": "Aventuras em pixel art com gatos, pandas e muitos segredos escondidos. Escolha uma caixa na prateleira.",
     "home.shelf.outTitle": "Já disponíveis",
@@ -453,6 +473,16 @@ window.EMBERBOX_I18N = {
   },
 
   es: {
+    "home.lilyTheCapybara.desc": "Una pequeña capibara sale a convertirse en una auténtica depredadora y encuentra una victoria muy distinta.",
+    "game.meta.lilyTheCapybara.desc": "Lily the Capybara: un juego de plataformas en pixel art 2D de Ember Box Studio.",
+    "game.lilyTheCapybara.tagline": "Plataformas en pixel art 2D",
+    "game.lilyTheCapybara.description": "Lily es una pequeña capibara cansada de que la vean como un animalito dócil y simpático. Decidida a convertirse en una auténtica depredadora, deja su hogar junto al río para cazar al gran jaguar, corriendo, haciendo doble salto y dash por 35 niveles hechos a mano en cuatro biomas: el Bosque, la Ciudad de Piedra, la Selva y, de vuelta a casa, la Pradera. Pero al jaguar no se le vence por la fuerza...",
+    "game.lilyTheCapybara.feature1": "35 niveles hechos a mano en el Bosque, la Ciudad de Piedra, la Selva y la Pradera",
+    "game.lilyTheCapybara.feature2": "Corre, haz doble salto, dash y pisa ranas, serpientes, murciélagos, abejas y monos que lanzan plátanos",
+    "game.lilyTheCapybara.feature3": "Una cerbatana de bambú que dispara frijoles, para enemigos lejanos e interruptores que solo se alcanzan a distancia",
+    "game.lilyTheCapybara.feature4": "Tirolinas, resortes, plataformas que se derrumban, trampas de lanza y mariposas místicas escondidas",
+    "game.lilyTheCapybara.feature5": "Un jefe al que no se derrota: esquiva al gran jaguar y acarícialo hasta que se calme",
+    "game.lilyTheCapybara.feature6": "Las mariposas rosas compran trajes, frijoles y mangos en la tienda. En inglés, portugués, español, francés y alemán",
     "home.hero.title": "Juegos hechos con <em>cariño</em>,<br>píxel a píxel.",
     "home.hero.text": "Aventuras en pixel art con gatos, pandas y muchos secretos escondidos. Elige una caja de la estantería.",
     "home.shelf.outTitle": "Ya disponibles",
