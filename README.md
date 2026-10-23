@@ -71,7 +71,6 @@ em outras pastas.
 
 ## O que ainda falta
 
-- **Find the Cats 3: Halloween Hunt** (Em breve): arte de capa, screenshots, trailer e links de loja.
 - **Panda: Curse of the Pumpkin** (Em breve): arte de capa e links de loja (o trailer já está no
   site, em `videos/`, com legendas EN/PT).
 - Nos jogos "em breve" os botões de loja foram removidos até as páginas da loja existirem — ao

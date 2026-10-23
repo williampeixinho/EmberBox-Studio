@@ -44,7 +44,6 @@ window.EMBERBOX_I18N = {
     "common.backToShelf": "&larr; Back to the shelf",
     "common.getItOn": "Get it on",
     "common.backCover": "Back of the box",
-    "common.stillDrawing": "still drawing it...",
     "common.fontCredit": "Pixel font: <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">BoldPixels by YukiPixels</a> (CC BY-SA 4.0)",
     "publishing.form.shipTo": "Ship to",
     "nav.home": "Home",
@@ -74,7 +73,6 @@ window.EMBERBOX_I18N = {
     "home.findTheCats.desc": "A casual game about finding hidden kittens in detailed pixel art scenes.",
     "home.findTheCats2.desc": "The sequel to Find the Cats, with new scenes, more hidden kittens and extra levels.",
     "home.pandaShardsOfAurora.desc": "A young panda's icy quest to recover the Shards of Aurora, guided by a wise elder.",
-    "home.findTheCats3.desc": "A spooky new hunt for hidden cats in costumes, arriving this Halloween.",
     "home.pandaCurseOfThePumpkin.desc": "The panda's next adventure: breaking a Halloween curse before the harvest moon fades.",
     "home.melsJigsaw.desc": "A cozy jigsaw puzzle game with beautiful pixel art worlds, hosted by Mel the cat.",
 
@@ -174,7 +172,6 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats.desc": "Find the Cats: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: a 2D pixel art arctic adventure by Ember Box Studio.",
-    "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: a casual pixel art hidden-cats game by Ember Box Studio.",
     "game.meta.pandaCurseOfThePumpkin.desc": "Panda: Curse of the Pumpkin: a 2D pixel art Halloween adventure by Ember Box Studio.",
 
     "game.melTheCat.tagline": "2D pixel art platformer",
@@ -225,12 +222,6 @@ window.EMBERBOX_I18N = {
     "game.pandaShardsOfAurora.feature4": "Collect the scattered Shards of Aurora",
     "game.pandaShardsOfAurora.trailerTitle": "Trailer for Panda: Shards of Aurora",
 
-    "game.findTheCats3.tagline": "Casual pixel art Halloween hidden-cats game",
-    "game.findTheCats3.description": "Find the Cats 3: Halloween Hunt brings the hidden-cats series into the spookiest season of the year. Explore pumpkin patches, haunted houses, and candy-filled streets in search of cats dressed up for Halloween.",
-    "game.findTheCats3.feature1": "Spooky Halloween-themed scenes to explore",
-    "game.findTheCats3.feature2": "Find cats in costumes and creepy hiding spots",
-    "game.findTheCats3.feature3": "New seasonal characters and decorations",
-    "game.findTheCats3.feature4": "Relaxing gameplay, no time pressure",
 
     "game.pandaCurseOfThePumpkin.tagline": "2D pixel art Halloween adventure",
     "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin brings back our young panda hero, this time facing a Halloween curse that has twisted his forest friends into monstrous creatures of the night. Guided once again by the wise elder panda, he must defeat them one by one to break the curse before the harvest moon fades.",
@@ -288,7 +279,6 @@ window.EMBERBOX_I18N = {
     "common.backToShelf": "&larr; Voltar para a prateleira",
     "common.getItOn": "Disponível em",
     "common.backCover": "Verso da caixa",
-    "common.stillDrawing": "ainda desenhando...",
     "common.fontCredit": "Fonte pixel: <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">BoldPixels by YukiPixels</a> (CC BY-SA 4.0)",
     "publishing.form.shipTo": "Enviar para",
     "nav.home": "Início",
@@ -318,7 +308,6 @@ window.EMBERBOX_I18N = {
     "home.findTheCats.desc": "Um jogo casual de encontrar gatinhos escondidos em cenários pixel art detalhados.",
     "home.findTheCats2.desc": "A continuação de Find the Cats, com novos cenários, mais gatinhos escondidos e fases extras.",
     "home.pandaShardsOfAurora.desc": "A jornada gelada de um jovem panda para recuperar os Shards of Aurora, guiado por um ancião sábio.",
-    "home.findTheCats3.desc": "Uma nova caçada assombrada por gatinhos escondidos fantasiados, chegando neste Halloween.",
     "home.pandaCurseOfThePumpkin.desc": "A próxima aventura do panda: quebrar uma maldição de Halloween antes que a lua da colheita se apague.",
     "home.melsJigsaw.desc": "Um jogo de quebra-cabeças aconchegante, com mundos lindos em pixel art e a Mel como anfitriã.",
 
@@ -418,7 +407,6 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats.desc": "Find the Cats: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: uma aventura pixel art 2D no gelo da Ember Box Studio.",
-    "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: um jogo casual de encontrar gatinhos, pixel art, da Ember Box Studio.",
     "game.meta.pandaCurseOfThePumpkin.desc": "Panda: Curse of the Pumpkin: uma aventura pixel art 2D de Halloween da Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
@@ -469,12 +457,6 @@ window.EMBERBOX_I18N = {
     "game.pandaShardsOfAurora.feature4": "Colete os Shards of Aurora espalhados",
     "game.pandaShardsOfAurora.trailerTitle": "Trailer de Panda: Shards of Aurora",
 
-    "game.findTheCats3.tagline": "Jogo casual pixel art de gatinhos escondidos no Halloween",
-    "game.findTheCats3.description": "Find the Cats 3: Halloween Hunt leva a série de gatinhos escondidos para a época mais assombrada do ano. Explore plantações de abóboras, casas mal-assombradas e ruas cheias de doces em busca de gatos fantasiados para o Halloween.",
-    "game.findTheCats3.feature1": "Cenários assombrados com tema de Halloween",
-    "game.findTheCats3.feature2": "Encontre gatos fantasiados em esconderijos assustadores",
-    "game.findTheCats3.feature3": "Novos personagens e decorações sazonais",
-    "game.findTheCats3.feature4": "Jogabilidade relaxante, sem pressão de tempo",
 
     "game.pandaCurseOfThePumpkin.tagline": "Aventura pixel art 2D de Halloween",
     "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin traz de volta nosso jovem panda herói, desta vez enfrentando uma maldição de Halloween que transformou seus amigos da floresta em criaturas monstruosas da noite. Guiado mais uma vez pelo sábio panda ancião, ele precisa derrotá-los um a um para quebrar a maldição antes que a lua da colheita se apague.",
@@ -532,7 +514,6 @@ window.EMBERBOX_I18N = {
     "common.backToShelf": "&larr; Volver a la estantería",
     "common.getItOn": "Disponible en",
     "common.backCover": "Reverso de la caja",
-    "common.stillDrawing": "todavía dibujando...",
     "common.fontCredit": "Fuente pixel: <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">BoldPixels by YukiPixels</a> (CC BY-SA 4.0)",
     "publishing.form.shipTo": "Enviar a",
     "nav.home": "Inicio",
@@ -562,7 +543,6 @@ window.EMBERBOX_I18N = {
     "home.findTheCats.desc": "Un juego casual de encontrar gatitos escondidos en escenarios pixel art detallados.",
     "home.findTheCats2.desc": "La secuela de Find the Cats, con nuevos escenarios, más gatitos escondidos y niveles extra.",
     "home.pandaShardsOfAurora.desc": "El viaje helado de un joven panda para recuperar los Shards of Aurora, guiado por un anciano sabio.",
-    "home.findTheCats3.desc": "Una nueva búsqueda espeluznante de gatitos escondidos disfrazados, llegando esta Halloween.",
     "home.pandaCurseOfThePumpkin.desc": "La próxima aventura del panda: romper una maldición de Halloween antes de que la luna de la cosecha se apague.",
     "home.melsJigsaw.desc": "Un acogedor juego de rompecabezas con hermosos mundos en pixel art, con Mel como anfitriona.",
 
@@ -662,7 +642,6 @@ window.EMBERBOX_I18N = {
     "game.meta.findTheCats.desc": "Find the Cats: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.findTheCats2.desc": "Find the Cats 2: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.pandaShardsOfAurora.desc": "Panda: Shards of Aurora: una aventura pixel art 2D en el hielo de Ember Box Studio.",
-    "game.meta.findTheCats3.desc": "Find the Cats 3: Halloween Hunt: un juego casual de encontrar gatitos, pixel art, de Ember Box Studio.",
     "game.meta.pandaCurseOfThePumpkin.desc": "Panda: Curse of the Pumpkin: una aventura pixel art 2D de Halloween de Ember Box Studio.",
 
     "game.melTheCat.tagline": "Plataforma pixel art 2D",
@@ -713,12 +692,6 @@ window.EMBERBOX_I18N = {
     "game.pandaShardsOfAurora.feature4": "Recolecta los Shards of Aurora dispersos",
     "game.pandaShardsOfAurora.trailerTitle": "Tráiler de Panda: Shards of Aurora",
 
-    "game.findTheCats3.tagline": "Juego casual pixel art de gatitos escondidos de Halloween",
-    "game.findTheCats3.description": "Find the Cats 3: Halloween Hunt lleva la serie de gatitos escondidos a la temporada más espeluznante del año. Explora campos de calabazas, casas embrujadas y calles llenas de dulces en busca de gatos disfrazados para Halloween.",
-    "game.findTheCats3.feature1": "Escenarios espeluznantes de temática Halloween",
-    "game.findTheCats3.feature2": "Encuentra gatos disfrazados en escondites escalofriantes",
-    "game.findTheCats3.feature3": "Nuevos personajes y decoraciones de temporada",
-    "game.findTheCats3.feature4": "Jugabilidad relajante, sin presión de tiempo",
 
     "game.pandaCurseOfThePumpkin.tagline": "Aventura pixel art 2D de Halloween",
     "game.pandaCurseOfThePumpkin.description": "Panda: Curse of the Pumpkin trae de vuelta a nuestro joven panda héroe, esta vez enfrentando una maldición de Halloween que ha convertido a sus amigos del bosque en criaturas monstruosas de la noche. Guiado una vez más por el sabio panda anciano, debe derrotarlos uno a uno para romper la maldición antes de que la luna de la cosecha se apague.",
