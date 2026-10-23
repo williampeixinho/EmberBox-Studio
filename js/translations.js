@@ -7,6 +7,17 @@
 window.EMBERBOX_I18N = {
 
   en: {
+    "home.candeia.desc": "A girl with an oil lamp in a dark cave, where whatever the light touches stops in time.",
+    "game.meta.candeia.desc": "Candeia: a 2D pixel art puzzle-platformer by Ember Box Studio.",
+    "game.candeia.tagline": "2D pixel art puzzle-platformer",
+    "game.candeia.description": "Candeia is a puzzle-platformer built on one rule: what the light touches stops in time, and what stops becomes ground. Guide a hooded girl with an oil lamp through a dark cave, freezing falling rain into stepping stones, rocks into a staircase and even the shadows that hunt her into springboards. But the dark matters too: lifts, wheels and tides only move when the lamp is off.",
+    "game.candeia.feature1": "50 levels across five regions of the cave, ending in a chase against the Great Shade",
+    "game.candeia.feature2": "Candles, crystals, mirrors, gears, wind, will-o'-wisps and searchlights give the light new uses",
+    "game.candeia.feature3": "150 hidden fireflies, time medals and a secret level, the Firefly Garden",
+    "game.candeia.feature4": "A cave map that lights up, lantern by lantern, as you go deeper",
+    "game.candeia.feature5": "A short illustrated story that opens and closes the journey",
+    "game.candeia.feature6": "Assist mode, hints at the right moment and full controller support",
+    "tag.puzzlePlatformer": "Puzzle platformer",
     "home.lilyTheCapybara.desc": "A little capybara sets out to become a real predator, and finds a very different kind of victory.",
     "game.meta.lilyTheCapybara.desc": "Lily the Capybara: a 2D pixel art platformer by Ember Box Studio.",
     "game.lilyTheCapybara.tagline": "2D pixel art platformer",
@@ -240,6 +251,17 @@ window.EMBERBOX_I18N = {
   },
 
   pt: {
+    "home.candeia.desc": "Uma menina com uma lamparina numa caverna escura, onde tudo o que a luz toca para no tempo.",
+    "game.meta.candeia.desc": "Candeia: um jogo de plataforma e quebra-cabeça em pixel art 2D da Ember Box Studio.",
+    "game.candeia.tagline": "Plataforma e quebra-cabeça em pixel art 2D",
+    "game.candeia.description": "Candeia é um jogo de plataforma e quebra-cabeça com uma regra só: o que a luz toca para no tempo, e o que para vira chão. Guie uma menina encapuzada com uma lamparina por uma caverna escura, congelando a chuva em degraus, as pedras em escadas e até as sombras que a perseguem em trampolins. Mas o escuro também importa: elevadores, rodas e marés só se movem com a lamparina apagada.",
+    "game.candeia.feature1": "50 fases em cinco regiões da caverna, terminando numa perseguição contra a Grande Sombra",
+    "game.candeia.feature2": "Velas, cristais, espelhos, engrenagens, vento, fogos-fátuos e holofotes dão novos usos à luz",
+    "game.candeia.feature3": "150 vaga-lumes escondidos, medalhas de tempo e uma fase secreta, o Jardim dos Vaga-lumes",
+    "game.candeia.feature4": "Um mapa da caverna que se acende, lanterna por lanterna, conforme você avança",
+    "game.candeia.feature5": "Uma pequena história ilustrada que abre e fecha a jornada",
+    "game.candeia.feature6": "Modo assistido, dicas na hora certa e suporte completo a controle",
+    "tag.puzzlePlatformer": "Plataforma e quebra-cabeça",
     "home.lilyTheCapybara.desc": "Uma capivarinha sai de casa para virar uma predadora de verdade e encontra um tipo bem diferente de vitória.",
     "game.meta.lilyTheCapybara.desc": "Lily the Capybara: um jogo de plataforma em pixel art 2D da Ember Box Studio.",
     "game.lilyTheCapybara.tagline": "Plataforma em pixel art 2D",
@@ -473,6 +495,17 @@ window.EMBERBOX_I18N = {
   },
 
   es: {
+    "home.candeia.desc": "Una niña con un candil en una cueva oscura, donde todo lo que toca la luz se detiene en el tiempo.",
+    "game.meta.candeia.desc": "Candeia: un juego de plataformas y puzles en pixel art 2D de Ember Box Studio.",
+    "game.candeia.tagline": "Plataformas y puzles en pixel art 2D",
+    "game.candeia.description": "Candeia es un juego de plataformas y puzles con una sola regla: lo que toca la luz se detiene en el tiempo, y lo que se detiene se vuelve suelo. Guía a una niña encapuchada con un candil por una cueva oscura, congelando la lluvia en peldaños, las rocas en escaleras e incluso las sombras que la persiguen en trampolines. Pero la oscuridad también importa: ascensores, ruedas y mareas solo se mueven con el candil apagado.",
+    "game.candeia.feature1": "50 niveles en cinco regiones de la cueva, que terminan en una persecución contra la Gran Sombra",
+    "game.candeia.feature2": "Velas, cristales, espejos, engranajes, viento, fuegos fatuos y focos dan nuevos usos a la luz",
+    "game.candeia.feature3": "150 luciérnagas escondidas, medallas de tiempo y un nivel secreto, el Jardín de las Luciérnagas",
+    "game.candeia.feature4": "Un mapa de la cueva que se enciende, linterna a linterna, a medida que avanzas",
+    "game.candeia.feature5": "Una breve historia ilustrada que abre y cierra el viaje",
+    "game.candeia.feature6": "Modo asistido, pistas en el momento justo y soporte completo para mando",
+    "tag.puzzlePlatformer": "Plataformas y puzles",
     "home.lilyTheCapybara.desc": "Una pequeña capibara sale a convertirse en una auténtica depredadora y encuentra una victoria muy distinta.",
     "game.meta.lilyTheCapybara.desc": "Lily the Capybara: un juego de plataformas en pixel art 2D de Ember Box Studio.",
     "game.lilyTheCapybara.tagline": "Plataformas en pixel art 2D",
