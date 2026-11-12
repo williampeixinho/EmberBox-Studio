@@ -78,6 +78,7 @@ em outras pastas.
 - **Mel's Jigsaw Adventures** (Em breve): links de loja.
 - **Lily the Capybara** (Em breve): links de loja e trailer (textos e imagens vieram do GDD v1.1).
 - **Candeia** (Em breve): links de loja e trailer (textos do formulário de submissão, imagens da arte final).
+- **Mel Knocks It All Over / Mel Derruba Tudo** (Em breve): links de loja e trailer. O título muda com o idioma (chave `game.melKnocks.title`).
 - **Formulário de pitch**: hoje abre o app de e-mail do visitante (com um quadro de "copiar
   pitch" se o app não abrir). Quando o site estiver no Netlify, troque por Netlify Forms para
   receber os pitches direto por e-mail.
