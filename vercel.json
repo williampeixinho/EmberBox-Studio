@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/mel/findthecats.html", "destination": "/games/find-the-cats.html", "permanent": true },
+    { "source": "/mel/hiddenkitties.html", "destination": "/games/find-the-cats.html", "permanent": true },
+    { "source": "/mel/findthecats2.html", "destination": "/games/find-the-cats-2.html", "permanent": true },
+    { "source": "/mel/mel.html", "destination": "/games/mel-the-cat.html", "permanent": true },
+    { "source": "/mel/melthepyramidcat.html", "destination": "/games/mel-the-pyramid-cat.html", "permanent": true },
+    { "source": "/mel/melthespacecat.html", "destination": "/games/mel-the-space-cat.html", "permanent": true },
+    { "source": "/mel/pandashardsofaurora.html", "destination": "/games/panda-shards-of-aurora.html", "permanent": true },
+    { "source": "/mel/:path*", "destination": "/", "permanent": true },
+    { "source": "/contato/:path*", "destination": "/about.html", "permanent": true },
+    { "source": "/terms-and-conditions.html", "destination": "/privacy.html", "permanent": true },
+    { "source": "/games/find-the-cats-3-halloween-hunt.html", "destination": "/", "permanent": true }
+  ]
+}
