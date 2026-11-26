@@ -815,6 +815,12 @@ a.box:focus-visible .box-front { box-shadow: 0 0 0 3px var(--flame); }
 .legal li { margin-bottom: 6px; }
 .legal-updated { font-size: 15px; color: #6b5440; }
 
+/* Game privacy policies (privacy/*.html): the page holds the EN and PT text and the
+   EN/PT/ES switch shows one of them (ES reads the English text). */
+.policy-lang[lang="pt"] { display: none; }
+html[lang="pt"] .policy-lang[lang="en"] { display: none; }
+html[lang="pt"] .policy-lang[lang="pt"] { display: block; }
+
 /* ---------- Footer ---------- */
 .site-footer {
   position: relative;
